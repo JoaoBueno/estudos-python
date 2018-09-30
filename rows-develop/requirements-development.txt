@@ -1,0 +1,27 @@
+-r requirements.txt
+
+# Everything except install_requires
+click
+file-magic
+lxml
+openpyxl
+parquet>=1.1
+requests
+requests-cache
+xlrd
+xlwt
+
+# Test and lint tools
+coverage
+ipdb
+mock
+nose
+pylint
+yanc
+tox
+isort
+autoflake
+
+# Doc tools
+sphinx==1.5
+recommonmark

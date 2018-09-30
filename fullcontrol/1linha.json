@@ -1,0 +1,469 @@
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Man                                    ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Cadastro                               ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Geral                                  ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Cliente/Fornecedor/Outros              ", "prog": "aigrm010.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Li&bera Cliente/Fornecedor/Outros       ", "prog": "aigrm019.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta &Geral de clientes             ", "prog": "aivec070.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Local de Cobranca/Entrega              ", "prog": "aigrm020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de Contat&os                   ", "prog": "aigrm040.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "L&embretes                              ", "prog": "aivem050.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Informacoes Complementares de Clientes ", "prog": "aigrm100.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Geral II                               ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Centro &de Custo                        ", "prog": "aigrm030.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Solicitante/&Funcionario                ", "prog": "aigrm201.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Permissao de Funcionario                ", "prog": "aigrm420.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Funcionario x Grupo x Sub-grupo(excecao)", "prog": "aigrm460.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Motivos                                ", "prog": "aigrm480.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&argos e Funcoes                       ", "prog": "aigrm190.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Grupos / Sub-Grupos                    ", "prog": "aigrm300.acu"}
+{"nivel": "3", "funcao": "E", "int": ">", "sep": " ", "opcao": "&Gera Categoria/Grupo/Sub-Grupo (Site)  ", "prog": "gr-sg-ca"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Familias de Unidade de Medidas         ", "prog": "gesim000.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Unidades de Medidas                    ", "prog": "gesim010.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Conversor de Unidades de Medidas       ", "prog": "aigrm330.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Ramo Atividade                         ", "prog": "aigrm280.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "Ge&ral III                              ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Empresa                                ", "prog": "aigrm000.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Corporacoes                            ", "prog": "aivem600.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Unidades da Federacao (Estados)        ", "prog": "aigrm130.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Municipio                              ", "prog": "aigrm230.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Paises                                 ", "prog": "aigrm060.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Tipos de Nr                            ", "prog": "aigrm290.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Series                                 ", "prog": "aigrm350.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Especies                               ", "prog": "aigrm140.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Compras                                ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Destino de Compras                     ", "prog": "aigrm210.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Itens x Fco x Preco                    ", "prog": "aimrm170.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Item x FCO x Destino/Cta.Orcamentaria  ", "prog": "aigrm220.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Fiscal                                 ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Classificacao Fiscal - NBM/SH          ", "prog": "aigrm360.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Aliquotas Interestaduais               ", "prog": "aigrm131.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Inscricao Estadual - Outros Estados    ", "prog": "ger01110.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Operacao Fiscal                        ", "prog": "aigrm070.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Men&sagens/Dispositivos Legais          ", "prog": "aivem100.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Aliquotas de Impostos                  ", "prog": "afsam010.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro Sefaz                          ", "prog": "aimrm400.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "Parametros &Fiscais                     ", "prog": "afsam000.acu"}
+{"nivel": "3", "funcao": " ", "int": " ", "sep": "|", "opcao": "Regras Fiscais                          ", "prog": ""}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "Operacao Fiscal De&/Para                ", "prog": "aigrm075.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "Destino/Finalidade de Entrada/Saida     ", "prog": "aigrm211.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "UF x NCM x Aliquotas ICMS e MVA         ", "prog": "afsam130.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "UF x EAN x Aliquotas ICMS e MVA         ", "prog": "afsam140.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "UF x Itens x Aliquotas ICMS e MVA       ", "prog": "aimrm040.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "Regras Fiscais EAN/NCM                  ", "prog": "afsam150.acu"}
+{"nivel": "4", "funcao": " ", "int": ">", "sep": " ", "opcao": "Regras Fiscais ITEM                     ", "prog": "afsam160.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "F&inanceiro                             ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Finais de Semana e Feriados            ", "prog": "aigrm370.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Moedas e Variacoes                     ", "prog": "sam01410.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Bancos                                 ", "prog": "aibam010.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Agencias                               ", "prog": "aibam020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Contas Bancarias / Contabeis           ", "prog": "aibam030.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Bancos x Con&venios                     ", "prog": "aibam070.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Taloes/Formularios de Che&ques          ", "prog": "aibam060.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Situacao de Cobranca                   ", "prog": "aifim020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Grupo e Contas Orcamentarias           ", "prog": "aifim030.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Condicao Pa&gamento                     ", "prog": "aigrm050.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Tabela fi&xa para pagamentos            ", "prog": "sav01112.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Encargos Financeiros                   ", "prog": "aifim010.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "S&ituacao do Cliente                    ", "prog": "aivem040.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Formas de Pagamento                     ", "prog": "aifim120.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Vendas                                 ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Regiao                                 ", "prog": "sav01220.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Sub-regiao                             ", "prog": "sav01230.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Gerencia                               ", "prog": "sav01920.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Representante/&Vendedor/Arquiteto       ", "prog": "aivem110.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Representante X Gerencia               ", "prog": "aivem060.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "T&ipo Pedido Venda                      ", "prog": "aivem030.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Tabela/Carta Preco                     ", "prog": "aivem150.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Rea&juste de Precos                     ", "prog": "aivep150.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Calculo de &Precos                      ", "prog": "aifpm120.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Imprime Tabela de Precos                ", "prog": "aiver197.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Estoques                               ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Almoxarifado                           ", "prog": "aimrm020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Localizacao Fisica                     ", "prog": "aimrm070.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Categorias                             ", "prog": "aigrm550.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Ma&rca                                  ", "prog": "aigrm380.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Familias                               ", "prog": "aigrm450.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de Materiais                   ", "prog": "aimrm015.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de &Materiais - Comercio       ", "prog": "aimrm016.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de &Servicos                   ", "prog": "aimrm014.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de Materiais - Site            ", "prog": "aimrm025.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Itens &x Fornecedores/Clientes          ", "prog": "aimrm050.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "I&tens x Centro de Custos               ", "prog": "aimrm060.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Itens x Codigo de &Barras               ", "prog": "aimrm180.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "It&ens x Almoxarifados                  ", "prog": "aimrm260.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Solicitante x Centro de Custo          ", "prog": "aigrm080.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Solicitante x Al&moxarifado             ", "prog": "aigrm110.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&PDV                                    ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "ECF                                     ", "prog": "auflm170.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Terminais de Venda / PDV                ", "prog": "auflm150.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Aliquotas Fiscais - ECF                 ", "prog": "auflm160.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "ECF x Aliquotas Fiscais                 ", "prog": "auflm161.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Modalidade de Pagamento - ECF          ", "prog": "auflm110.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Formas de Pagamento - ECF              ", "prog": "auflm120.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Formas de Pagto x &Condicao de Pagto    ", "prog": "auflm130.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relacionamento PDV x Formas de Pagto   ", "prog": "auflm100.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "C&arga para os PDVs                     ", "prog": "auflm151.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Cub&o                                   ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Venda                                  ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera cubo de &Vendas                    ", "prog": "aicup003.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera cubo de &Caixa                     ", "prog": "aicup004.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": "|", "opcao": "&Financeiro                             ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cubo Con&tas a Receber + a Pagar        ", "prog": "aicup018.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cu&bo Contas Recebidas + Pagas          ", "prog": "aicup021.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "Cubo Contas a Pagar (abertos)           ", "prog": "aicup011.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cubo Contas a Pagar (pagos)             ", "prog": "aicup012.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "Cubo Contas a Receber (abertos)         ", "prog": "aicup013.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cubo Contas a Receber (recebidos)       ", "prog": "aicup014.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Extrato                                ", "prog": "aicup027.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": "|", "opcao": "&Estoque                                ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Estoque                                ", "prog": "aicup015.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "E&stoque (Posicao Valorizada)           ", "prog": "aicup019.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Movimento de Estoque                   ", "prog": "aicup330.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": "|", "opcao": "Compras                                 ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Notas de Recebimento (NR)               ", "prog": "aicup300.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Pedido de Compras                       ", "prog": "aicup310.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": "|", "opcao": "Fa&turamento                            ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Faturamento (NOTAS FISCAIS)            ", "prog": "aicup017.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Comissao                               ", "prog": "aicup026.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Fa&turamento (NOTAS FISCAIS) c/ Impostos", "prog": "aicup022.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Orcamento                              ", "prog": "aicup120.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Relatorio                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Cliente                                ", "prog": "aigrr010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Cliente II                             ", "prog": "aigrr012.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Cliente (Exedeu limite de credito)     ", "prog": "aigrr021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Exporta FCO para E-mail (csv)          ", "prog": "aigrr013.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Tabelas                                ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Controle de Fechamentos                 ", "prog": "aigrm120.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Parametros de Sistema                  ", "prog": "geram020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "L&iberacao LOG remoto                   ", "prog": "geram035.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Listagem P&arametros do Sistema         ", "prog": "geral010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Log do Sistema                         ", "prog": "geram040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio do L&og do sistema            ", "prog": "gerar010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Parametros de Sistema - &Multicomp      ", "prog": "geram010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cadastro de &Referencias do Log         ", "prog": "geram030.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "Troca &Senha                            ", "prog": "multusua.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Ativa Empresa                          ", "prog": "multativ.acu"}
+{"nivel": "1", "funcao": "F", "int": ">", "sep": "|", "opcao": "&Fim                                    ", "prog": ""}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Financas                               ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Analise de Credito                     ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Analise de Pedidos                     ", "prog": "aivec060.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio de Contas a Receber (Analise)", "prog": "aifir220.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Orcamento                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Manutencao do Orcamento                ", "prog": "aifim012.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&Onsulta do Orcamento                  ", "prog": "aific012.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "P&revisoes                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Manutencao da Previsoes de Pagamento   ", "prog": "aifim051.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Resumo por centro x conta              ", "prog": "aifim052.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Contas a Receber                       ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Manutencao Recebimento                 ", "prog": "aifim200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Baixa/Estorno Recebimento              ", "prog": "aifim210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Baixa/&Estorno Recebimento (Refinancia) ", "prog": "aifim220.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Relatorio de Titulos a Receber         ", "prog": "aifir200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Titulos a Receber Cliente/Repres.       ", "prog": "aifir201.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de &Titulos Recebidos         ", "prog": "aifir210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Ficha do Historico do Cliente           ", "prog": "aifir400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Consulta de Titulos em Atraso / Juros  ", "prog": "aific220.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Historico dos titulos a receber        ", "prog": "aifim600.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Emissao de Carta de Cobranca            ", "prog": "aifir650.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Consulta Financeira do Cliente          ", "prog": "aific220.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Cobranca &Escritural                    ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Selecao de Titulos                     ", "prog": "aifim300.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Geracao de Arquivos para o Bancos      ", "prog": "aifip300.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Processa Arquivo de Retorno            ", "prog": "aifip310.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Emissao Duplicatas                     ", "prog": "aifir603.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "E&missao Boletos de Cobranca            ", "prog": "aifir553.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio por STATUS de &Cobranca       ", "prog": "aifir300.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Posicao de Titulos p/Sit.de Co&branca   ", "prog": "aifir240.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Titulo E&nviados p/Cobranca", "prog": "aifir302.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio Re&torno                      ", "prog": "aifir310.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio Re&torno (novo)               ", "prog": "aifir312.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Contas a &Pagar                         ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Manutencao Contas a Pagar              ", "prog": "aifim100.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Baixa/Estorno Contas a Pagar           ", "prog": "aifim110.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Altera Vencimento / Valor do titulo    ", "prog": "aifim111.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Relatorio de Titulos a Pagar           ", "prog": "aifir100.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de &Titulos Pagos             ", "prog": "aifir110.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Bancos/Caixa                           ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Movimento Bancos/Caixa                 ", "prog": "aibam040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Transfs./Suprim./Depositos/Adiants.    ", "prog": "aibam050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Compensacao A&utomatica                 ", "prog": "aibam080.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Consulta Saldo - Bancos/Caixa          ", "prog": "aibac010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Atualiza Saldo - Bancos/Caixa          ", "prog": "aibap010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Fluxo de Caixa                          ", "prog": "aific010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Resumo do Dia                          ", "prog": "aific021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&ontrole de Cheques Recebidos          ", "prog": "aibam061.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Gerador de Recibos                     ", "prog": "aifim400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Captura de Cheques de Terceiros         ", "prog": "aibam090.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Processamento Arquivo Remessa Cheques  ", "prog": "aibap020.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Bancos/Caixa (Re&latorios)              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Impressao de Cheques                   ", "prog": "aibar060.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao de &Borderos                  ", "prog": "aibar050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Extrato Bancario                       ", "prog": "aibar010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de &Documentos nao Compensados", "prog": "aibar020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio de Cheques/Borderos Sintetico", "prog": "aibar030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Che&ques/Borderos Analitico", "prog": "aibar040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Prazo medio de cheques recebidos       ", "prog": "aibar061.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Re&latorio de cheques recebidos         ", "prog": "aibar062.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Aging do Contas a Pagar/Receber         ", "prog": "aifir500.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Rel. movimento de Caixa                ", "prog": "aibam211.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Vendas                                 ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Vendas / Caixa                         ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Venda Balcao                           ", "prog": "aivem015.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Troca/Devolucao de Mercadorias         ", "prog": "aivem350.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Imprime Venda                          ", "prog": "aiver908.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Agrupamento                            ", "prog": "aivep053.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Recebimentos(CAIXA)                    ", "prog": "aibam200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Movimento do Caixa                     ", "prog": "aibam211.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Orcamento de Vendas Novo               ", "prog": "aivem403.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Ent&regas                               ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gerenciamento de &Entregas              ", "prog": "aivem012.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Impressao das Entregas                 ", "prog": "aiver000.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Pedido entregue                        ", "prog": "aivem610.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Liberacao de NF                        ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera Nota Fiscal &Saida                 ", "prog": "aivem200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera NF Dep.Fechado/Transf.Matriz/Filial", "prog": "aimap240.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Consulta/Cancela/Exclui NF Saida       ", "prog": "aivec200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da Nota &Fiscal Saida         ", "prog": "aiver990.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da Nota Fiscal Saida(copia)   ", "prog": "aiver083.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera Arquivo TXT - NF Eletronica Saida  ", "prog": "afsap090.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Emissao de Notas Fiscais                ", "prog": "afsac075.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "No&tas Fiscais de Saida                 ", "prog": "aiver350.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "No&tas Fiscais de Saida (RETIDOS)       ", "prog": "aiver353.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "No&tas Fiscais de Saida Canceladas      ", "prog": "aiver360.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Gera Nota Fiscal do Cupom Fiscal       ", "prog": "auflp302.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera Nota Fiscal Saida Retencao         ", "prog": "aivem20-.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Gera Nota Fiscal &Entrada               ", "prog": "aivem210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta/Cancela/Exclui NF E&ntrada     ", "prog": "aivec210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da Nota F&iscal Entrada       ", "prog": "aiver991.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera Arquivo TXT - NF Eletronica Entrada", "prog": "afsap091.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Faturamento                            ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta por &Centro de Custo           ", "prog": "aivec021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta &Geral de Vendas               ", "prog": "aivec400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta ultimas vendas do C&liente     ", "prog": "aivec120.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta ultimas vendas do &Produto     ", "prog": "aivec130.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Curva &ABC (Vendas)                     ", "prog": "aiver210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Ultima compra do cliente               ", "prog": "aivec301.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Vendas (Produto)                       ", "prog": "aiver150.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Ven&das (Produto II)                    ", "prog": "aiver151.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "V&endas (Grupo Produto)                 ", "prog": "aiver160.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio Vendas (Clientes)             ", "prog": "aiver230.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio Vendas (Produto Si&ntetico)   ", "prog": "sav01671.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Apuracao de Vendas por Fornecedor      ", "prog": "aiver850.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Re&sumo Faturamento Cliente/Produto     ", "prog": "sav04980.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "R&elatorios                             ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Curva ABC de vendas                    ", "prog": "aiver163.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relat. Clientes x Notas Fiscais         ", "prog": "aiver180.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relat. Produtos Faturados e Seus Custos", "prog": "aiver160.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Tabela/Carta de Precos                 ", "prog": "aiver190.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio Vendas por Vendedor          ", "prog": "aiver102.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Dias entre Venda e Troca/Devolucao     ", "prog": "aiver770.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Listagem simples Nota Fiscal Saida     ", "prog": "aiver350.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Rel. de Vendas Canceladas de um &Item   ", "prog": "aiver108.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Rel. de Vendas (Fi&scal/ Gerencial)     ", "prog": "aiver103.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Rel. de Vendas (Campanha)               ", "prog": "aiver124.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Diferencial de Aliquotas               ", "prog": "aiver186.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Comissao                               ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Parametros Calculo                     ", "prog": "aivem501.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "P&rocessamento/Fechamento Comissao      ", "prog": "aivep550.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Consulta Comissao                      ", "prog": "aivem560.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio &Comissao Analitico           ", "prog": "aiver562.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Eventos                                ", "prog": "aivem510.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Nota Credito                           ", "prog": "aivem521.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Nota Credito &Global                    ", "prog": "aiver507.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Fechamento(RELATORIOS)                 ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Nota Credi&to Representante             ", "prog": "aiver508.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio &Abatimento/Devolucao Comissao", "prog": "aiver531.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "P&DV                                    ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Manutencao                             ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Acerto de Caixa                        ", "prog": "auflm020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "A&certo de Cupom (Data Movimento/Modelo)", "prog": "auflm040.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&omandas Abertas                       ", "prog": "auflm140.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Mapa Resumo de Caixa                   ", "prog": "auflm300.acu"}
+{"nivel": "2", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Relatorios                             ", "prog": ""}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relacao de Itens Vendidos               ", "prog": "auflr031.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Vendas por Grupo e SubGrupo             ", "prog": "auflr032.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Vendas por Funcionario - I ", "prog": "auflr036.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Vendas por Funcionario - II", "prog": "auflr038.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Vendas por Visualizacao                 ", "prog": "auflr033.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Sangrias / Suprimentos / Devolucoes     ", "prog": "auflr023.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Extrato de Caixa                        ", "prog": "auflr020.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Extrato de Sobras e Faltas de Caixa     ", "prog": "auflr040.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Fechamento de Caixa                     ", "prog": "auflr022.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Custos                     ", "prog": "auflr100.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de Comandas por Dia           ", "prog": "auflr035.acu"}
+{"nivel": "3", "funcao": " ", "int": ">", "sep": " ", "opcao": "Extrato de Consumo Cliente/Funcionario  ", "prog": "auflr037.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Compras                                ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Requisicao Materiais                   ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Digitacao da Requisicao de Materiais   ", "prog": "aimrm101.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Requisicao Material - &CONFERENCIA      ", "prog": "aimrr113.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Baixa da Requisicao de Materiais       ", "prog": "aimrm121.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Requisicao Material - &ENTREGA          ", "prog": "aimrr114.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Conferencia de Requisicao de Materiais ", "prog": "aimrr100.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Al&tera Conta Contabil da Requisicao    ", "prog": "aimrm130.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "A&ltera Centro de Custo da Requisicao   ", "prog": "aimrm150.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Listagem Material                      ", "prog": "aimrr015.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Listagem Material - &Marca              ", "prog": "aimrr013.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Sugestao de Compras                    ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Sugestao de Compras                    ", "prog": "aimam201.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Pedidos                                ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Pedido de Compra                       ", "prog": "aimam031.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta Situacao de Pedidos (itens)    ", "prog": "aimac020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Impressao do Pedido de Compra          ", "prog": "aimar058.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Baixa Manual de Itens Pedido de Compra ", "prog": "aimam050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Pedido aberto / Fornecedor             ", "prog": "aimac030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Pedidos &Abertos                        ", "prog": "aimar110.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Estoque                                ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Itens                                  ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta &Movimento de Estoque          ", "prog": "aimrc010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta M&ovimento de Estoque (periodo)", "prog": "aimrc012.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta de &itens(preco / estoques)    ", "prog": "aimrc083.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Posicao de Estoque de Materiais p/Grupo", "prog": "aimar070.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Requisicao de Entrada/Saida (Materiais) ", "prog": "aimrm222.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Transferencia entre Almoxarifados      ", "prog": "aimrm230.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao de Tra&nsferencias            ", "prog": "aimrc091.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Materiais                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Entrada de Materiais - NR              ", "prog": "aimam010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consulta Compras p/ &Fornecedor         ", "prog": "aimac050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Importacao da NR                       ", "prog": "aimap101.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio de NR's por fornecedor       ", "prog": "aimar010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Confere&ncia de Entradas de NR'S        ", "prog": "aimar050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Confere&ncia de Entradas de NR'S (2)    ", "prog": "sam04153.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da NR (1a. Linha)             ", "prog": "aimar407.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da NR (Original)              ", "prog": "aimar402.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da NR (Completo)              ", "prog": "aimar400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao da NR - Ordem de Compra       ", "prog": "aimar401.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio dos &Gastos Orcamentarios     ", "prog": "aimar411.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de NRs emitidas               ", "prog": "aimar161.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de NRs x Fretes               ", "prog": "aimar170.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de &St                        ", "prog": "aimar059.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Prepara importacao NFs para NRs         ", "prog": "aivep600.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera as NRs (importa)                   ", "prog": "aimap021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Codigos Originais                       ", "prog": "qg-nre16.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Relatorios                             ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Movimentacao Diaria de Estoque         ", "prog": "aimrr020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Movimentacao Diaria de Estoque(interva)", "prog": "aimrr022.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Movimentacao de &Estoque (Novo)         ", "prog": "aimrr023.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Curva ABC de Fornecedores              ", "prog": "aimar100.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "M&ovimento de estoque (Requisicoes)     ", "prog": "aimrr120.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Co&nsumo de Materiais x media 6 meses   ", "prog": "aimrr200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio de Itens e seus Custos       ", "prog": "aimrr140.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Itens que Ti&veram Precos Alterados     ", "prog": "aiver157.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Listagem simples do Item de Estoque    ", "prog": "aimrr080.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Listagem simples de Estoque(C/ PESLIQ)  ", "prog": "aimrr081.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&usto por ramo de atividade            ", "prog": "aiver111.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Item x Grp/SGrp x Barras x Precos x Aliq", "prog": "aimrr070.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Re&sumo do Movimento                    ", "prog": "aimrr090.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio itens x grupo x subgrupo      ", "prog": "aimrr073.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio &Item Estoque Atual/Faturado  ", "prog": "aimrr190.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Comparativo de Consumo de M&ateriais    ", "prog": "aimrr180.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Comparativo de Custo de Ma&teriais      ", "prog": "aimrr210.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Verifica items - Substituicao Tributaria", "prog": "aimrr630.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Itens sem movimentacao                  ", "prog": "aimrr410.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "I&nventario                             ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Inventario / Contagem de Estoque       ", "prog": "aimrm300.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Etiqueta &para Inventario               ", "prog": "aimrr011.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Posicao &Valorizada de Estoque          ", "prog": "aimrr060.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Compara estoque entre matriz e filial   ", "prog": "aimrr066.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio Movimentacao por Operacao    ", "prog": "aimar080.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Inventario Digitado                    ", "prog": "afsam110.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Processamento Inventario               ", "prog": "aimap150.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Itens x Estoque Minimo                 ", "prog": "aimrr082.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Digita Inventario                      ", "prog": "aimam150.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Critica da digitacao do Inventario     ", "prog": "aimar150.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Contagem de Estoque                    ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Contagem Geral                         ", "prog": "aimrr301.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Reposicao por Almoxarifado             ", "prog": "aimrr400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Apuracao de Saida de Almoxarifado      ", "prog": "aimrr410.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Processamentos                         ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&1 - Atualiza estoque de Materiais      ", "prog": "aimrp010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&4 - Atualiza Faturados                 ", "prog": "aivep070.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "F&iscal                                 ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Livros Fiscais (Gerador)               ", "prog": "afsam100.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Termos de Abertura / Encerramento      ", "prog": "afsar080.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "Registro de &Entradas                   ", "prog": "afsar075.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "Registro de &Saidas                     ", "prog": "afsar010.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "Notas Fiscais por CFOP                  ", "prog": "afsar110.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Apuracoes Diversas                     ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Apuracao do ICMS/IPI                   ", "prog": "afsam040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Apuracao do PIS/COFINS                 ", "prog": "afsam026.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "Arquivos Magneticos                     ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Sintegra                               ", "prog": "afsap032.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&DIPJ IPI (Ficha 32,33,34 e 35)         ", "prog": "afsam030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Gera numeros                            ", "prog": "cv-fte03.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Exportador Entradas/Saidas (DEXION)     ", "prog": "afsap110.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Relatorios                             ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Listagem simples Nota Fiscal Saida     ", "prog": "aiver350.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Resumo &Diario de Notas Fiscais Emitidas", "prog": "aiver420.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Relatorio de Notas Fiscais por CFOP    ", "prog": "afsar110.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Aquisicoes com ICMS ST Interna          ", "prog": "afsar131.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": "|", "opcao": "Controle chave eletronica e &XML        ", "prog": "afsac070.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Producao                               ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Arvore de Produtos                     ", "prog": "aiprm010.acu"}
+{"nivel": "1", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Consulta Arvore Inversa                ", "prog": "aiprc010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Ordens de Servico                      ", "prog": "aivem421.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver476.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver438.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver452.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": "|", "opcao": "Ordens de &Fabricacao                   ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Digitacao da &OF                        ", "prog": "aiprm030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Listagem das OFs Abertas/Encerradas    ", "prog": "aiprr035.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relat&orio OF x Produto                 ", "prog": "aiprr038.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Consumo de Materia P&rima por OF        ", "prog": "aiprr142.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "G&rade de Producao I                    ", "prog": "aiprr260.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Grade de Producao II                   ", "prog": "aiprr100.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Apontamento                            ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Apontamento                            ", "prog": "aipcm203.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&onsulta                               ", "prog": "aipcc202.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Esto&rno                                ", "prog": "aipcm213.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": "|", "opcao": "&Ordens de Servico                      ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Ordens de Servico                      ", "prog": "aivem421.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver432.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver438.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Impressao Ordens de Servico             ", "prog": "aiver452.acu"}
+{"nivel": "0", "funcao": " ", "int": " ", "sep": " ", "opcao": "Conta&b                                 ", "prog": ""}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Cadastros                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Parametros do &Sistema                  ", "prog": "acctm010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Historico Padrao                       ", "prog": "acctm020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Centro de Custo                        ", "prog": "aigrm030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Plano de Contas                        ", "prog": "acctm040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "P&lano de Rateio                        ", "prog": "aigrm400.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Item/Grupo/Subgrupo/FCO x Conta Contabil", "prog": "acctm170.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Cent&ro de Custo x Conta Contabil       ", "prog": "acctm140.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Grupo x Centro de Custo x Conta Contabil", "prog": "acctm131.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "I&tem x Centro de Custo x Conta Contabil", "prog": "acctm130.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Lancamentos Complementares             ", "prog": "acctm160.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Parametros de Conta&bilizacao           ", "prog": "acctm060.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Processamento                          ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Manutencao do Movimento Contabil       ", "prog": "acctm200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "&Acerta Parametros NF                   ", "prog": "acctm110.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Acerta Parame&tros NR                   ", "prog": "acctm120.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": "|", "opcao": "Zera Contas de Resultado                ", "prog": "acctp090.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Atualizacao de &Saldos                  ", "prog": "acctp010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Analisa Saldo Ativo/Passivo/Resultado  ", "prog": "acctc010.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Encerramento do mes                    ", "prog": "acctm070.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Trans&ferencia de Saldo Anual           ", "prog": "acctp110.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Relatorios                             ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Balancete                              ", "prog": "acctr011.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Razao                                  ", "prog": "acctr020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Razao &Conferencia Diaria               ", "prog": "acctr021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Diario                                 ", "prog": "acctr030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "R&azao Auxiliar do Contas a Pagar       ", "prog": "acctr100.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Ra&zao Auxiliar do Contas a Receber     ", "prog": "acctr200.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Relatorio de &Documentos nao Compensados", "prog": "aibar020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Titulos a R&eceber                      ", "prog": "aifir230.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Titulos a &Pagar                        ", "prog": "aifir120.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Listagens                              ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Status da Contabilizacao               ", "prog": "acctl070.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Historico Padrao                       ", "prog": "acctl020.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Centro de Custo                        ", "prog": "aigrr030.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "&Plano de Contas                        ", "prog": "acctl040.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "C&onferencia de Lancamentos             ", "prog": "acctl050.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabilizacao &Requisicoes de Materiais", "prog": "acctr070.acu"}
+{"nivel": "1", "funcao": " ", "int": " ", "sep": " ", "opcao": "&Integracao Contabil                    ", "prog": ""}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza &NR (Nota de Recebimento)   ", "prog": "acctp021.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza N&F/ND (Nota de Saidas/Dbto)", "prog": "acctp022.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza &CF/CR (Cupom Fiscal/Rec)   ", "prog": "acctp033.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza &PG (Contas a Pagar)        ", "prog": "acctp023.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza &RE (Contas a Receber)      ", "prog": "acctp024.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza RQ (Re&quisicoes Materiais) ", "prog": "acctp027.acu"}
+{"nivel": "2", "funcao": " ", "int": ">", "sep": " ", "opcao": "Contabiliza RQ (Re&quisicoes Materiais) ", "prog": "nxcomxv .acu"}

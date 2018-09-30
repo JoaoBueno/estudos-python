@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+#:import wb webbrowser
+#:kivy 1.9.1
+
+<TelaVencedor1>:
+    canvas:
+        Rectangle:
+            source: 'img/vencedor-1.png'
+            size: self.width, self.height
+
+    Button:        
+        size_hint: 0.25, 0.075
+        pos_hint: {'top': 0.5, 'right': (0.7 + (self.width/2)/root.width)}
+        background_normal: 'img/back-to-menu-btn-normal.png'
+        background_down: 'img/back-to-menu-btn-pressed.png'
+        center_x: root.center_x + self.width/2 + 20
+        on_press:
+            root.manager.current = "menu"
+            root.manager.transition.direction = "right"
+
+    Button:
+        # 300px x 60px
+        size_hint: 0.25, 0.075
+        pos_hint: {'top': 0.5, 'right': (0.3 + (self.width/2)/root.width)}
+        center_x: root.center_x + self.width/2 + 20
+        background_normal: 'img/link-btn-normal.png'
+        on_press:
+            wb.open("https://pythonacademy.com.br")

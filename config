@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "estudos-python"]
+	url = https://github.com/JoaoBueno/estudos-python
+	fetch = +refs/heads/*:refs/remotes/estudos-python/*
+[remote "origin"]
+	url = https://github.com/JoaoBueno/estudos-python
+	fetch = +refs/heads/*:refs/remotes/origin/*
