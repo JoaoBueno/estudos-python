@@ -1,3 +1,3 @@
 # estudos-python
-Cole‡Æo de codigos python (estudos)
+Coleção de codigos python (estudos)
 
