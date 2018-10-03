@@ -1,3 +1,3 @@
 # estudos-python
-ColeÁ„o de codigos python (estudos)
+Cole√ß√£o de c√≥digos python (estudos)
 
