@@ -1,0 +1,29 @@
+* {
+    color: #212121;
+    outline: none;
+    font-family: 'Arial'
+}
+
+DataWidget, TemplateWidget, DBWidget, OptionsWidget, UsersWidget {
+    border: 2px solid #58CACF;
+    border-top: none;
+}
+
+QRadioButton::indicator {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+QGroupBox {
+    border: none;
+}
+
+QScrollBar:vertical {
+    border-width: 0;
+    background-color: white;
+    width: 5px;
+}
+
+QScrollBar::handle {
+    background-color: #45A0A3;
+    min-height: 25px;
+}

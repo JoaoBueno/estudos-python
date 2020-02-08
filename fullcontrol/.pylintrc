@@ -1,0 +1,5 @@
+[MASTER]
+extension-pkg-whitelist=PyQt5
+
+[TYPECHECK]
+disable=missing-docstring

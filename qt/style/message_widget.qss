@@ -1,0 +1,9 @@
+MessageWidget {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+MessageWidget QLabel {
+    color: #FFEB3B;
+    font-size: 12pt;
+    text-transform: uppercase;
+}

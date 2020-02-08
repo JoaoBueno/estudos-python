@@ -1,0 +1,48 @@
+DBWidget {
+    margin-top: 20px;
+}
+
+DBWidget QWidget, DBWidget QFrame {
+    background-color: white;
+    font-size: 10pt;
+}
+
+DBWidget QLabel {
+    padding: 10px 10px;
+}
+
+DBWidget QScrollArea {
+    border: none;
+}
+
+DBWidget QPushButton {
+    border: none;
+    padding: 10px 25px;
+}
+
+DBWidget QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+DBWidget QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+DBWidget QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+DBWidget QLabel#header {
+    font-weight: bold;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+DBWidget QLabel#header:hover {
+    background-color: white;
+}
+
+
+DBWidget QLineEdit {
+    margin-bottom: 10px;
+    font-size: 11pt;
+}

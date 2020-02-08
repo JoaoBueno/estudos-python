@@ -1,0 +1,36 @@
+AlertWidget {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+AlertWidgetContent, AlertWidgetContent QWidget {
+    background-color: white;
+    border: none;
+    font-size: 12pt;
+}
+
+AlertWidgetContent, AlertWidgetContent QLabel {
+    padding: 10px;
+}
+
+AlertWidgetContent QPushButton, UsersWidget QPushButton {
+    font-size: 12pt;
+    padding: 10px 30px;
+    color: white;
+    background-color: #45A0A3;
+    /*margin-right: 30px;*/
+    margin-top: 30px;
+    margin-left: 0;
+    text-transform: uppercase;
+    icon-size: 18px;
+    line-height: 18px;
+    border-width: 0;
+    width: 100%;
+}
+
+AlertWidgetContent QPushButton:hover, UsersWidget QPushButton:hover {
+    background-color: #3B8689;
+}
+
+AlertWidgetContent QPushButton:pressed, UsersWidget QPushButton:pressed {
+    background-color: #1F484A;
+}

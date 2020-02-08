@@ -1,0 +1,90 @@
+CrudWidget {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+CrudWidgetContent, CrudWidgetContent QWidget {
+    background-color: white;
+    border: none;
+}
+
+CrudWidgetContent QLineEdit, CrudWidgetContent QComboBox {
+    font-size: 12pt;
+    padding: 10px 0;
+    border-bottom: 3px solid #58CACF;
+}
+
+CrudWidgetContent QLineEdit {
+    padding-left: 0px;
+}
+
+CrudWidgetContent QComboBox::drop-down {
+    padding: 0;
+    border-width: 0px;
+}
+
+CrudWidgetContent QComboBox::down-arrow {
+    image: url(noimg);
+    border-width: 0px;
+}
+
+CrudWidgetContent QLabel {
+    margin-top: 40px;
+    font-size: 9pt;
+    /* color: blue; */
+    padding: 0;
+}
+
+CrudWidgetContent QLabel#title {
+    margin-top: 0;
+    font-size: 16pt;
+}
+
+CrudWidgetContent QPushButton {
+    font-size: 12pt;
+    padding: 10px 30px;
+    color: white;
+    background-color: #45A0A3;
+    margin-top: 30px;
+    text-transform: uppercase;
+    icon-size: 18px;
+    line-height: 18px;
+    border-width: 0;
+}
+
+CrudWidgetContent QPushButton:hover, UsersWidget QPushButton:hover {
+    background-color: #3B8689;
+}
+
+CrudWidgetContent QPushButton:pressed, UsersWidget QPushButton:pressed {
+    background-color: #1F484A;
+}
+
+CrudWidgetContent QPushButton:disabled {
+    background-color: #AAAAAA;
+}
+
+CrudWidgetContent QPushButton#icon {
+    padding: 10px 10px;
+    background-color: transparent;
+}
+
+CrudWidgetContent QPushButton#icon:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+CrudWidgetContent QPushButton#icon:pressed {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*
+CrudWidgetContent QPushButton#save {
+    qproperty-icon: url('gui/static/icons/pencil.png');
+}
+
+CrudWidgetContent QPushButton#close {
+    qproperty-icon: url('gui/static/icons/close.png');
+}
+
+CrudWidgetContent QPushButton#delete {
+    qproperty-icon: url('gui/static/icons/delete.png');
+}
+*/

@@ -8,6 +8,7 @@ menu_l2 = []
 menu_l3 = []
 menu_l4 = []
 action = []
+actiot = []
 
 
 class Menu(QMainWindow):
@@ -21,6 +22,7 @@ class Menu(QMainWindow):
 
         fieldnames = ('nivel', 'funcao', 'int', 'sep', 'opcao', 'prog')
         reader = csv.DictReader(csvfile, fieldnames, delimiter=';')
+        
         i = 0
         for row in reader:
             # input(row['opcao'])
@@ -50,6 +52,7 @@ class Menu(QMainWindow):
                     if row['sep'] == '[':
                         menu_l0[-1].addSeparator()
                     action.append(QAction(row['opcao'].strip(), self))
+                    actiot.append(row['opcao'].strip())
                     menu_l0[-1].addAction(action[-1])
                     menu_l0[-1].triggered.connect(self.selected)
                     for l in action:
@@ -58,6 +61,7 @@ class Menu(QMainWindow):
                     if row['sep'] == '[':
                         menu_l1[-1].addSeparator()
                     action.append(QAction(row['opcao'].strip(), self))
+                    actiot.append(row['opcao'].strip())
                     menu_l1[-1].addAction(action[-1])
                     menu_l1[-1].triggered.connect(self.selected)
                     for l in action:
@@ -66,6 +70,7 @@ class Menu(QMainWindow):
                     if row['sep'] == '[':
                         menu_l2[-1].addSeparator()
                     action.append(QAction(row['opcao'].strip(), self))
+                    actiot.append(row['opcao'].strip())
                     menu_l2[-1].addAction(action[-1])
                     menu_l2[-1].triggered.connect(self.selected)
                     for l in action:
@@ -74,6 +79,7 @@ class Menu(QMainWindow):
                     if row['sep'] == '[':
                         menu_l3[-1].addSeparator()
                     action.append(QAction(row['opcao'].strip(), self))
+                    actiot.append(row['opcao'].strip())
                     menu_l3[-1].addAction(action[-1])
                     menu_l3[-1].triggered.connect(self.selected)
                     for l in action:
@@ -82,6 +88,7 @@ class Menu(QMainWindow):
                     if row['sep'] == '[':
                         menu_l4[-1].addSeparator()
                     action.append(QAction(row['opcao'].strip(), self))
+                    actiot.append(row['opcao'].strip())
                     menu_l4[-1].addAction(action[-1])
                     menu_l4[-1].triggered.connect(self.selected)
                     for l in action:
@@ -130,9 +137,11 @@ class Menu(QMainWindow):
         qApp.quit()
 
     def selected(self, q):
+
         print(q.text() + ' selected')
 
 
 app = QApplication(sys.argv)
+app.setStyle('WindowsVista')
 menus = Menu()
 sys.exit(app.exec_())

@@ -49,8 +49,8 @@ plt.ylim(84.0, 101)
 
 plt.title("CPU Load for 7 days (10min interval), Idling Time, from vmstat command")
 
-# #let python select the best position for legend
-plt.legend([p1[0],p2[0],p3[0],p4[0],p5[0],p6[0],p7[0]], 
-          ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], 'best', numpoints=1)
+# let python select the best position for legend
+plt.legend((p1[0],p2[0],p3[0],p4[0],p5[0],p6[0],p7[0]), 
+          ('Mon','Tue','Wed','Thu','Fri','Sat','Sun'))
 
 plt.show()

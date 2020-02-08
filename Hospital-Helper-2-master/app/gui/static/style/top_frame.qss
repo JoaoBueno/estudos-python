@@ -1,0 +1,76 @@
+TopFrame {
+    font-size: 12pt;
+    background-color: #58CACF;
+}
+
+TopFrame QLabel {
+    color: #B2EBF2;
+    font-size: 35pt;
+}
+
+SelectMenu QPushButton {
+    text-transform: uppercase;
+    color: #B2EBF2;
+    border: none;
+    font-size: 13pt;
+    background-color: #58CACF;
+    padding: 25px 25px;
+}
+
+SelectMenu QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+SelectMenu QPushButton:checked {
+    color: white;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FFEB3B;
+}
+
+TopSystemButtons QPushButton {
+    outline: 0;
+    background-color: #45A0A3;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #45A0A3;
+    padding: 5px 20px;
+    font-size: 15pt;
+}
+
+TopSystemButtons {
+    background-color: #45A0A3;
+}
+
+TopSystemButtons QLabel {
+    margin: 0;
+    font-size: 11pt;
+    background-color: #45A0A3;
+    color: white;   
+}
+
+TopSystemButtons QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+TopSystemButtons QPushButton:pressed {
+    background-color: #1F484A;
+}
+
+SelectItemMenu {
+     background-color: white;
+}
+
+SelectItemMenu QPushButton {
+    border: none;
+    font-size: 12pt;
+    padding: 10px 20px;
+}
+
+SelectItemMenu QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+SelectItemMenu QLabel {
+    font-size: 11pt;
+    color: #45A0A3;
+}

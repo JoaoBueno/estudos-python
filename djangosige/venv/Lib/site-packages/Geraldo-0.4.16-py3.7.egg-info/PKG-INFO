@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Geraldo
+Version: 0.4.16
+Summary: Geraldo is a reports engine for Python and Django applications
+Home-page: http://www.geraldoreports.org/
+Author: Marinho Brandao
+Author-email: marinho@gmail.com
+License: GNU Lesser General Public License (LGPL)
+Description: Geraldo is a Python and Django pluggable application that works with ReportLab to generate complex reports.
+Platform: UNKNOWN

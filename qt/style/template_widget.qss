@@ -1,0 +1,106 @@
+AbstractTemplateWidget QLabel {
+    background-color: white;
+}
+
+AbstractTemplateWidget QTextEdit {
+    font-size: 10pt;
+}
+
+AbstractTemplateWidget QLineEdit {
+    font-size: 10pt;
+    padding: 10px 0;    
+}
+
+AbstractTemplateWidget QTextEdit:focus {
+    border: 1px solid #DDDDDD;
+}
+
+AbstractTemplateWidget QPushButton {
+    font-size: 10pt;
+    padding: 10px 5px;
+    border: none;
+    background-color: white;
+}
+
+AbstractTemplateWidget QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+AbstractTemplateWidget QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+AbstractTemplateWidget QScrollArea {
+    background-color: white;
+}
+
+AbstractTemplateWidget QRadioButton {
+    text-align: left;
+    font-size: 10pt;
+    padding: 10px 5px;
+    border: none;
+    background-color: white;
+}
+
+AbstractTemplateWidget QRadioButton:checked {
+    background-color: #45A0A3;
+    color: white;
+}
+
+AbstractTemplateWidget QRadioButton:checked:hover {
+    background-color: #3d8b8e;
+    color: white;
+}
+
+AbstractTemplateWidget QRadioButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+AbstractTemplateWidget QLabel {
+    font-size: 11pt;
+}
+
+TemplateEditingWidget QLabel {
+    background-color: white;
+    padding: 10px 5px;
+}
+
+AbstractTemplateWidget QPushButton#controls {
+    padding: 10px 30px;
+    color: white;
+    background-color: #45A0A3;
+    text-transform: uppercase;
+    line-height: 18px;
+    border-width: 0;
+    margin: 0;
+}
+
+AbstractTemplateWidget QPushButton#controls:hover {
+    background-color: #3B8689;
+}
+
+AbstractTemplateWidget QPushButton#controls:pressed {
+    background-color: #1F484A;
+}
+
+AbstractTemplateWidget QComboBox {
+    border: none;
+    background-color: white;
+    font-size: 12pt;
+    padding: 10px 0 10px 5px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+AbstractTemplateWidget QComboBox::drop-down {
+    padding: 0;
+    border-width: 0px;
+}
+
+AbstractTemplateWidget QComboBox::down-arrow {
+    image: url(noimg);
+    border-width: 0px;
+}
+
+TextControls {
+    background-color: white;
+}

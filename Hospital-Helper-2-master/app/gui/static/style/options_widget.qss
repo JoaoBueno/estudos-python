@@ -1,0 +1,19 @@
+OptionsWidget {
+    background-color: white;
+}
+
+OptionsWidget QPushButton {
+    font-size: 20px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    margin: 15px 5px 5px 15px;
+}
+
+OptionsWidget QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+OptionsWidget QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2);
+}

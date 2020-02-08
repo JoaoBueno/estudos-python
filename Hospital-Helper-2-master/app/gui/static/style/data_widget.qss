@@ -1,0 +1,25 @@
+AttributesFrame {
+    font-size: 12pt;
+    background-color: #EEEDEF;
+}
+
+InputWidget {
+    background-color: white;
+    border: none;
+    margin: 10px;
+}
+
+InputWidget QLineEdit {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #45A0A3;
+    margin: 10px;
+    font-size: 12pt;
+}
+
+InputWidget QLabel {
+    font-size: 12pt;
+    background-color: white;
+    color: blue;
+    margin: 10px;
+}

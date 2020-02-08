@@ -4,7 +4,7 @@ import datetime as DT
 
 data= np.loadtxt('daily_count.csv', delimiter=',', dtype={'names': ('date', 'count'),'formats': ('S10', 'i4')} )
 
-x = [DT.datetime.strptime(key,'%Y-%m-%d') for (key, value) in data ]
+x = [DT.datetime.strptime(key.decode('ascii'),'%Y-%m-%d') for (key, value) in data ]
 y = [value for (key, value) in data]
 
 fig = plt.figure()

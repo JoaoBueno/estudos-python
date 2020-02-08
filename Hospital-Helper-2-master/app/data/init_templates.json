@@ -1,0 +1,506 @@
+[
+	{
+		"name": "Без патологии",
+		"item_id": 11,
+		"item": {
+			"name": "ginekologiia",
+			"group_id": 8,
+			"id": 11
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Первый день последних месячных мeнопауза<br/>Матка определяется в обычном положении (anteflexio, retroflexio), не отклонена вправо, влево.<br/>Размеры: {ginekologiia[matka_dlina]}ммx{ginekologiia[matka_shirina]}ммx{ginekologiia[matka_tolshchina]}мм с объемом {ginekologiia[m._ob'em]}см3.<br/>форма обычная, контуры ровные, четкие. Миометрий однородный<br/>Эндометрий:<br/>толщина функционального слоя {ginekologiia[endometrii]}мм (с учетом дня цикла менопаузы - норма), гиперэхогенный гипоэхогенный изоэхогенный.<br/>контуры ровные, четкие, структура однородная.<br/>Шейка матки:<br/>определяется, размерами {ginekologiia[sheika_dlina]}ммx{ginekologiia[sheika_tolshchina]}мм<br/>строение не изменено, цервикальный канал не расширен.<br/>Левый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[l._dlina]}x{ginekologiia[l._shirina]}x{ginekologiia[l._tolshchina]}, объемом {ginekologiia[l._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные<br/>Правый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[p._dlina]}x{ginekologiia[p._shirina]}x{ginekologiia[p._tolshchina]}, объемом {ginekologiia[p._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные</p>",
+		"id": 1,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Без эхографической патологии.</p>"
+	},
+	{
+		"name": "Беременность",
+		"item_id": 11,
+		"item": {
+			"name": "ginekologiia",
+			"group_id": 8,
+			"id": 11
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Гинекология</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Первый день последних месячных мeнопауза<br/>Матка определяется в обычном положении (anteflexio, retroflexio), не отклонена вправо, влево.<br/>Размеры: {ginekologiia[matka_dlina]}ммx{ginekologiia[matka_shirina]}ммx{ginekologiia[matka_tolshchina]}мм с объемом {ginekologiia[m._ob'em]}см3.<br/>форма обычная, контуры ровные, четкие. Миометрий однородный<br/>По передней стенке в области дна перешейка, слева, справа по правому ребру по левому ребру визуализируются гиперэхогенные, гипоэхогенные образования x, x, x с ровными, четкими контурами, однородные по структуре, неоднородные по структуре, с гипоэхогенным гиперэхогенными анаэхогенными включениями, деформирует М-эхо.<br/>В полости матки визуализируется плодное яйцо диаметром {ginekologiia[diametr]}<br/>Шейка матки:<br/>определяется, размерами {ginekologiia[sheika_dlina]}ммx{ginekologiia[sheika_tolshchina]}мм<br/>строение не изменено, цервикальный канал не расширен.<br/>Левый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[l._dlina]}ммx{ginekologiia[l._shirina]}ммx{ginekologiia[l._tolshchina]}мм, объемом {ginekologiia[l._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные<br/>Правый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[p._dlina]}x{ginekologiia[p._shirina]}x{ginekologiia[p._tolshchina]}, объемом {ginekologiia[p._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные</p>",
+		"id": 2,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки беременности малого срока.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 11,
+		"item": {
+			"name": "ginekologiia",
+			"group_id": 8,
+			"id": 11
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Первый день последних месячных мeнопауза<br/>Матка определяется в обычном положении (anteflexio, retroflexio), не отклонена вправо, влево.<br/>Размеры: {ginekologiia[matka_dlina]}ммx{ginekologiia[matka_shirina]}ммx{ginekologiia[matka_tolshchina]}мм с объемом {ginekologiia[m._ob'em]}см3.<br/>форма обычная, контуры ровные, четкие. Миометрий однородный<br/>По передней стенке в области дна перешейка, слева, справа по правому ребру по левому ребру визуализируются гиперэхогенные, гипоэхогенные образования x, x, x с ровными, четкими контурами, однородные по структуре, неоднородные по структуре, с гипоэхогенным гиперэхогенными анаэхогенными включениями, деформирует М-эхо.<br/>Эндометрий: <br/>толщина функционального слоя {ginekologiia[endometrii]}мм (с учетом дня цикла менопаузы - норма), гиперэхогенный гипоэхогенный изоэхогенный.<br/>контуры ровные, четкие, структура однородная.<br/>Шейка матки:<br/>определяется, размерами {ginekologiia[sheika_dlina]}ммx{ginekologiia[sheika_tolshchina]}мм<br/>строение не изменено, цервикальный канал не расширен.<br/>Левый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[l._dlina]}x{ginekologiia[l._shirina]}x{ginekologiia[l._tolshchina]}, объемом {ginekologiia[l._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные<br/>Правый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[p._dlina]}x{ginekologiia[p._shirina]}x{ginekologiia[p._tolshchina]}, объемом {ginekologiia[p._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные</p>",
+		"id": 3,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки очагового образования тела матки, более характерны для миомы матки. Рекомендовано: консультация гинеколога, УЗИ контроль через месяцев.</p>"
+	},
+	{
+		"name": "Очаг_обр",
+		"item_id": 11,
+		"item": {
+			"name": "ginekologiia",
+			"group_id": 8,
+			"id": 11
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Первый день последних месячных мeнопауза<br/>Матка определяется в обычном положении (anteflexio, retroflexio), не отклоненая вправо, влево.<br/>Размеры: {ginekologiia[matka_dlina]}ммx{ginekologiia[matka_shirina]}ммx{ginekologiia[matka_tolshchina]}мм с объемом {ginekologiia[m._ob'em]}см3.<br/>форма обычная, контуры ровные, четкие. Миометрий однородный<br/>По передней стенке в области дна перешейка, слева, справа по правому ребру по левому ребру визуализируются гиперэхогенные, гипоэхогенные образования x, x, x с ровными, четкими контурами, однородные по структуре, неоднородные по структуре, с гипоэхогенным гиперэхогенными анаэхогенными включениями, деформирует М-эхо.<br/>Эндометрий:<br/>толщина функционального слоя {ginekologiia[endometrii]}мм (с учетом дня цикла менопаузы - норма), гиперэхогенный гипоэхогенный изоэхогенный, контуры ровные, четкие, структура однородная.<br/>Шейка матки:<br/>определяется, размерами {ginekologiia[sheika_dlina]}ммx{ginekologiia[sheika_tolshchina]}мм<br/>строение не изменено, цервикальный канал не расширен.<br/>Левый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[l._dlina]}x{ginekologiia[l._shirina]}x{ginekologiia[l._tolshchina]}, объемом {ginekologiia[l._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные<br/>Правый яичник:<br/>определяется, расположен обычно смещен у угла у ребра за маткой.<br/>Размерами {ginekologiia[p._dlina]}x{ginekologiia[p._shirina]}x{ginekologiia[p._tolshchina]}, объемом {ginekologiia[p._ob'em]}см3.<br/>строение не изменено, фолликулы до , расположены диффузно по перифeрии.<br/>Контуры четкие, гиперэхогенные</p>",
+		"id": 4,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки очагового образования тела матки, более характерны для миома матки. Рекомендовано: консультация гинеколога, УЗИ контроль через месяцев.</p>"
+	},
+	{
+		"name": "ЖКБ",
+		"item_id": 4,
+		"item": {
+			"name": "zhelchnyi",
+			"group_id": 3,
+			"id": 4
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры - не увеличен, {zhelchnyi[dlina]}x{zhelchnyi[shirina]}x{zhelchnyi[tolshchina]}мм, Объем {zhelchnyi[ob'em]}мл, деформирован.<br/>Стенка уплотнена, утолщена, {zhelchnyi[stenka]}мм.<br/>Желчь однородная. Конкременты визуализируются от мм до мм, подвижные, дающие эхотень.<br/></p>",
+		"id": 5,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки ЖКБ, хронического холецистита.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 4,
+		"item": {
+			"name": "zhelchnyi",
+			"group_id": 3,
+			"id": 4
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры - не увеличен, {zhelchnyi[dlina]}x{zhelchnyi[shirina]}x{zhelchnyi[tolshchina]}мм, Объем {zhelchnyi[ob'em]}мл.<br/>Форма — обычная.<br/>Стенка не уплотнена, не утолщена, {zhelchnyi[stenka]}мм.<br/>Желчь однородная. Конкременты не визуализируются.<br/></p>",
+		"id": 6,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "Перегиб",
+		"item_id": 4,
+		"item": {
+			"name": "zhelchnyi",
+			"group_id": 3,
+			"id": 4
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры - не увеличен, {zhelchnyi[dlina]}x{zhelchnyi[shirina]}x{zhelchnyi[tolshchina]}мм, Объем {zhelchnyi[ob'em]}мл.<br/>Форма — имеет перегибы.<br/>Стенка не уплотнена, не утолщена {zhelchnyi[stenka]}мм.<br/>Желчь однородная. Конкременты не визуализируются.<br/></p>",
+		"id": 7,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки деформация желчного пузыря.</p>"
+	},
+	{
+		"name": "ХХ",
+		"item_id": 4,
+		"item": {
+			"name": "zhelchnyi",
+			"group_id": 3,
+			"id": 4
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры - не увеличен, {zhelchnyi[dlina]}x{zhelchnyi[shirina]}x{zhelchnyi[tolshchina]}мм, Объем {zhelchnyi[ob'em]}мл, деформирован.<br/>Стенка уплотнена, утолщена, {zhelchnyi[stenka]}мм.<br/>Желчь однородная. Конкременты не визуализируются.<br/></p>",
+		"id": 8,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки хронического холецистита.</p>"
+	},
+	{
+		"name": "Киста",
+		"item_id": 14,
+		"item": {
+			"name": "kista",
+			"group_id": 11,
+			"id": 14
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Визуализируется анэхогенное однородное образование {kista[dlina_1]}х{kista[dlina_2]} с ровными четкими контурами, дающее эффект дорсального усиления, без признаков кровотока. визуализируются аналогичные образования {kista[dlina_3]}х{kista[dlina_4]}, {kista[dlina_5]}х{kista[dlina_6]}, {kista[dlina_7]}х{kista[dlina_8]}</p>",
+		"id": 9,
+		"conclusion": "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br/></p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 10,
+		"item": {
+			"name": "mpuzyr",
+			"group_id": 7,
+			"id": 10
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Мочевой Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры - не увеличен, {mpuzyr[dlina]}x{mpuzyr[shirina]}x{mpuzyr[tolshchina]}мм, Объем {mpuzyr[ob'em]}мл.<br/>Наполнен достаточно.<br/>Стенка не уплотнена, не утолщена, {mpuzyr[stenka]}мм.<br/>Содержимое однородное. Патологические включения в полости не определяются.<br/></p>",
+		"id": 10,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "Образование",
+		"item_id": 13,
+		"item": {
+			"name": "obrazovanie",
+			"group_id": 10,
+			"id": 13
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Визуализируется гиперэхогенное однородное образование {obrazovanie[dlina_1]}х{obrazovanie[dlina_2]} с ровными четкими контурами, однородное по структуре. Визуализируется гипоэхогенное образование {obrazovanie[dlina_3]}х{obrazovanie[dlina_4]} с неровными нечеткими контурами неоднородное по структуре за счет гипер и анэхогенных включений. Визуализируется изоэхогенное образование {obrazovanie[dlina_5]}х{obrazovanie[dlina_6]} с гипоэхогенным ободком, однородное по структуре.</p>",
+		"id": 11,
+		"conclusion": "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br/></p>"
+	},
+	{
+		"name": "Гепатоз",
+		"item_id": 3,
+		"item": {
+			"name": "pechen",
+			"group_id": 3,
+			"id": 3
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Печень</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Печень не увеличена, правая доля КВР {pechen[kvr]}мм. Левая доля ПЗ {pechen[pz]}мм.<br/>Контуры ровные.<br/>Эхогенность повышена. <br/>Структура диффузно неоднородная.<br/>Звукопроводимость снижена.<br/>Сосудистый рисунок обеднен.<br/>Сосуды: ВВ — {pechen[vv]}мм, НПВ — {pechen[npv]}мм.<br/>Внутрипеченочные желчные протоки не расширены, стенки их уплотнены.<br/>Холедох не расширен — {pechen[kholedokh]}мм.<br/></p>",
+		"id": 12,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки жирового гепатоза.</p>"
+	},
+	{
+		"name": "ДИП",
+		"item_id": 3,
+		"item": {
+			"name": "pechen",
+			"group_id": 3,
+			"id": 3
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Печень</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Печень не увеличена, правая доля КВР {pechen[kvr]}мм. Левая доля ПЗ {pechen[pz]}мм.<br/>Контуры ровные.<br/>Эхогенность повышена. <br/>Структура однородная.<br/>Звукопроводимость нормальная.<br/>Сосудистый рисунок обеднен.<br/>Сосуды: ВВ — {pechen[vv]}мм, НПВ — {pechen[npv]}мм.<br/>Внутрипеченочные желчные протоки не расширены, стенки их уплотнены.<br/>Холедох не расширен — {pechen[kholedokh]}мм.<br/></p>",
+		"id": 13,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки диффузных изменений в паренхимe печени.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 3,
+		"item": {
+			"name": "pechen",
+			"group_id": 3,
+			"id": 3
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Печень</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Печень не увеличена, правая доля КВР {pechen[kvr]}мм. Левая доля ПЗ {pechen[pz]}мм.<br/>Контуры ровные.<br/>Эхогенность обычная. <br/>Структура однородная.<br/>Сосуды: ВВ — {pechen[vv]}мм, НПВ — {pechen[npv]}мм.<br/>Внутрипеченочные желчные протоки не расширены, стенки их не уплотнены.<br/>Холедох не расширен — {pechen[kholedokh]}мм.<br/></p>",
+		"id": 14,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "ДИПЖ",
+		"item_id": 5,
+		"item": {
+			"name": "podzheludochnaia",
+			"group_id": 3,
+			"id": 5
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Поджелудочная Железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — не увеличены, {podzheludochnaia[golovka]}x{podzheludochnaia[telo]}x{podzheludochnaia[khvost]}мм.<br/>Контуры ровные, четкие. Эхогенность повышена.<br/>Структура однородная. Панкреатический проток не расширен.<br/></p>",
+		"id": 15,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки диффузных изменений паренхимы поджелудочной железы.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 5,
+		"item": {
+			"name": "podzheludochnaia",
+			"group_id": 3,
+			"id": 5
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — не увеличены, {podzheludochnaia[golovka]}x{podzheludochnaia[telo]}x{podzheludochnaia[khvost]}мм.<br/>Контуры ровные, четкие. Эхогенность обычная.<br/>Структура однородная. Панкреатический проток не расширен.<br/></p>",
+		"id": 16,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "ХП",
+		"item_id": 5,
+		"item": {
+			"name": "podzheludochnaia",
+			"group_id": 3,
+			"id": 5
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Желчный Пузырь</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — не увеличены, {podzheludochnaia[golovka]}x{podzheludochnaia[telo]}x{podzheludochnaia[khvost]}мм.<br/>Контуры неровные, четкие. Эхогенность повышена.<br/>Структура неоднородная. Панкреатический проток не расширен.<br/></p>",
+		"id": 17,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки хронического панкреатита.</p>"
+	},
+	{
+		"name": "Гидрокаликоз",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка<br/></span>Размеры не увеличены — {pochki[dlina]}x{pochki[shirina]}мм.<br/>Расположена - обычно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim]}мм.<br/>Чашечки расширены до {pochki[chashechki]}мм. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены — {pochki[dlina_2]}x{pochki[shirina_2]}мм.<br/>Расположена обычно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim_2]}мм.<br/>Чашечки расширены до {pochki[chashechki_2]}мм. Лоханка не расширена.<br/>Конкременты не визуализируются.</p>",
+		"id": 18,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки двустороннего гидрокаликоза.</p>"
+	},
+	{
+		"name": "МКБ",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка</span><br/>Размеры не увеличены — {pochki[dlina]}x{pochki[shirina]}мм.<br/>Расположена - обычно.<br/>Контуры неровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim]}мм.<br/>Чашечки расширены до {pochki[chashechki]}мм, деформированы.<br/>Лоханка расширена {pochki[lokhanka]}мм.<br/>Конкременты визуализируются в проекции чашечек мм, дающие эхотень.<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены — {pochki[dlina_2]}x{pochki[shirina_2]}мм.<br/>Расположена обычно.<br/>Контуры неровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной{pochki[parenkhim_2]}мм.<br/>Чашечки расширены до {pochki[chashechki_2]}мм, деформированы.<br/>Лоханка расширена {pochki[lokhanka_2]}мм.<br/>Конкременты визуализируются в проекции чашечек мм, дающие эхотень.<br/></p>",
+		"id": 19,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки МКБ, хронического пиелонефрита, двустороннего гидрокаликоза.</p>"
+	},
+	{
+		"name": "Нефроптоз",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка</span><br/>Размеры не увеличены — {pochki[dlina]}x{pochki[shirina]}sмм.<br/>Расположена - обычно.<br/>Смещена книзу лежа на мм, стоя на мм.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim]}мм.<br/>Чашечки расширены до {pochki[chashechki]}мм. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены — {pochki[dlina_2]}x{pochki[shirina_2]}мм.<br/>Расположена обычно.<br/>Смещена книзу лежа на мм, стоя на мм.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim_2]}мм.<br/>Чашечки расширены до {pochki[chashechki_2]}мм. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/></p>",
+		"id": 20,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки двустороннего нефроптоза, двустороннего гидрокаликоза.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка</span><br/>Размеры не увеличены —{pochki[dlina]}x{pochki[shirina]}мм.<br/>Расположена - обычно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim]}мм.<br/>Чашечки не расширены. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены — {pochki[dlina_2]}x{pochki[shirina_2]}мм.<br/>Расположена обычно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim_2]}мм.<br/>Чашечки не расширены. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/></p>",
+		"id": 21,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "ХПН",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка</span><br/>Размеры не увеличены — {pochki[dlina]}x{pochki[shirina]}мм.<br/>Расположена - обычно.<br/>Контуры неровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim]}мм.<br/>Чашечки расширены до {pochki[chashechki]}мм, деформированы.<br/>Лоханка расширена {pochki[lokhanka]}мм.<br/>Конкременты не визуализируются.<br/>Конкременты визуализируются: в нижних чашечках , средних чашечках , верхних чашечках .<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены — {pochki[dlina_2]}x{pochki[shirina_2]}мм.<br/>Расположена обычно.<br/>Контуры неровные, четкие. Подвижность сохранена.<br/>Паренхима обычной эхогенности, толщиной {pochki[parenkhim_2]}мм.<br/>Чашечки расширены до {pochki[chashechki_2]}мм, деформированы.<br/>Лоханка расширена {pochki[lokhanka_2]}sмм.<br/>Конкременты не визуализируются.<br/>Конкременты визуализируются: в верхних чашечках , в средних чашечках , в нижних чашечках .<br/></p>",
+		"id": 22,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки хронического пиелонефрита, двустороннего гидрокаликоза, двусторонней пиелокаликоэктазии. МКБ, конкрементов правой почки, левой почки, обеих почек.</p>"
+	},
+	{
+		"name": "ГПЖ",
+		"item_id": 9,
+		"item": {
+			"name": "predstatelnaia",
+			"group_id": 6,
+			"id": 9
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Предстательная железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — увеличены, {predstatelnaia[dlina]}x{predstatelnaia[shirina]}x{predstatelnaia[tolshchina]}мм, объем {predstatelnaia[ob'em]}мм кб.<br/>Симметричная. Контуры ровные, четкие.<br/>Эхогенность повышена. Структура диффузно неоднородная.<br/></p>",
+		"id": 23,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки гиперплазии предстательной железы, диффузных изменений паренхима предстательной железы.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 9,
+		"item": {
+			"name": "predstatelnaia",
+			"group_id": 6,
+			"id": 9
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Предстательная железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — не увеличены, {predstatelnaia[dlina]}x{predstatelnaia[shirina]}x{predstatelnaia[tolshchina]}мм, объем {predstatelnaia[ob'em]}мм кб.<br/>Симметричная. Контуры ровные, четкие.<br/>Эхогенность обычная. Структура однородная.<br/></p>",
+		"id": 24,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "Трузи",
+		"item_id": 9,
+		"item": {
+			"name": "predstatelnaia",
+			"group_id": 6,
+			"id": 9
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Предстательная железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Трансректальное исследование.<br/>Предстательная железа ассиметричная.<br/>Размеры {predstatelnaia[dlina]}x{predstatelnaia[shirina]}x{predstatelnaia[tolshchina]}мм, объем {predstatelnaia[ob'em]}мм кб.<br/>Контуры неровные, нечеткие.<br/>Капсула нечеткая.<br/>Эхоструктура неоднородная, в переходных зонах обеих долей (площадь поражения справа, слева) гипо,-гиперэхогенные узловые образования с нечеткими контурами, неоднородные по стр-ре до мм.<br/>В парауретральных зонах и по ходу семявыбрасывающих протоков кальцинаты и кисты протоков.<br/>Мочевой пузырь наполнен адекватно. Стенка не утолщена. Видимое содержимое однородное.<br/>Объем остаточной мочи - {predstatelnaia[ob'em_2]}sсм3.<br/>Семенные пузырьки не увеличены, обычной эхоструктуры, с кистозными включениями до</p>",
+		"id": 25,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки диффузно-узлового поражения ткани предстательной железы.</p>"
+	},
+	{
+		"name": "ХП",
+		"item_id": 9,
+		"item": {
+			"name": "predstatelnaia",
+			"group_id": 6,
+			"id": 9
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Предстательная железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры — увеличены, {predstatelnaia[dlina]}x{predstatelnaia[shirina]}x{predstatelnaia[tolshchina]}мм, объем {predstatelnaia[ob'em]}мм кб.<br/>Симметричная. Контуры неровные, четкие. Капсула уплотнена.<br/>Эхогенность повышена. Структура неоднородная с гиперэхогенными включениями по переферии.<br/></p>",
+		"id": 26,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки гиперплазии предстательной железы, хронического простатита.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 6,
+		"item": {
+			"name": "selezenka",
+			"group_id": 3,
+			"id": 6
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Селезенка</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Размеры не увеличены - {selezenka[dlina]}x{selezenka[shirina]}x{selezenka[tolshchina]}мм, площадь - {selezenka[ploshchad']}см2<br/>Контуры ровные, четкие. Эхогенность обычная.<br/>Структура однородная. Селезеночная вена не расширена. <br/></p>",
+		"id": 27,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "ГЛЖ ДД",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">﻿Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]}уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки уплотнены, склерозированы, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм, створки уплотнены, склерозированы, с кальцинатами 1-2 степени, кровоток ламинарный, регургитация степени.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}sмм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ сохранена, кинез стенок не нарушен.<br/>Диастолическая функция ЛЖ нарушена по 1 типу. E Гипертрофия миокарда ЛЖ, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС = {serdtse[ots]}(норма Концентрическое ремоделирование ЛЖ Концентрическая гипертрофия ЛЖ Концентрическая гипертрофия с дилатацией ЛЖ. Эксцентрическая гипертрофия левого желудочка.<br/>МК - створки уплотнены, задняя створка с кальцинатом, ригидна, движение разнонаправленное, кровоток ламинарный, регургитация степени.<br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени.<br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширена.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет. Легочная гипертензии в покое легкой, умеренной, тяжелой степени - давление в ЛА мм рт ст.<br/>Систолический градиент на КЛА {serdtse[kla]}мм рт ст.<br/>Свободной жидкости в перикарде нет.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.</p>",
+		"id": 28,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки склеротических изменений стенок аорты, створок АК, МК, недостаточности АК, МК, концентрической гипертрофии ЛЖ, диастолической дисфункции ЛЖ по 1 типу, легочной гипертензии в покое, относительной недостаточности ТК.</p>"
+	},
+	{
+		"name": "ДД 1",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">﻿Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки уплотнены, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм створки уплотнены, кровоток ламинарный.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ сохранена, кинез стенок не нарушен.<br/>Диастолическая функция ЛЖ нарушена по 1 типу. E Гипертрофии миокарда ЛЖ нет, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС = {serdtse[ots]} (норма Концентрическое ремоделирование ЛЖ Концентрическая гипертрофия ЛЖ Концентрическая гипертрофия с дилатацией ЛЖ. Эксцентрическая гипертрофия левого желудочка.<br/>МК - створки уплотнены, движение разнонаправленное, кровоток ламинарный, регургитация степени.<br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени.<br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширена.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет.<br/>Систолический градиент на КЛА {serdtse[kla]} А мм рт ст.<br/>Свободной жидкости в перикарде нет.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.<br/></p>",
+		"id": 29,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки неспецифических дегенеративных изменений стенок аорты, створок АК, диастолической дисфункции ЛЖ по 1 типу.</p>"
+	},
+	{
+		"name": "ИБС",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки уплотнены, склерозированы, амплитуда движения их достаточная.<br/>Открытие створок АК{serdtse[oak]}мм, створки уплотнены, склерозированы, с кальцинатами 1-2 степени, кровоток ламинарный, регургитация степени.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ снижена. Локальные нарушения сократимости стенок ЛЖ выявлены - гипокинезия ЗСЛЖ, МЖП, боковой, передней стенки, верхушечных сегментов.<br/>Диастолическая функция ЛЖ нарушена по 1 типу. E Гипертрофия миокарда ЛЖ, индекс массы миокарда ЛЖ {serdtse[immlzh]} г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС = {serdtse[ots]} (норма Концентрическое ремоделирование ЛЖ Концентрическая гипертрофия ЛЖ Концентрическая гипертрофия с дилатацией ЛЖ. Эксцентрическая гипертрофия левого желудочка.<br/>МК - створки уплотнены, задняя створка с кальцинатом, ригидна, движение разнонаправленное, кровоток ламинарный, регургитация степени.<br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени.<br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширена.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет. Легочная гипертензии в покое легкой, умеренной, тяжелой степени - давление в ЛА мм рт ст.<br/>Систолический градиент на КЛА {serdtse[kla]}мм рт ст.<br/>Свободной жидкости в перикарде нет.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.<br/></p>",
+		"id": 30,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки склеротических изменений стенок аорты, створок АК, МК, недостаточности АК, МК, ИБС, ПИКС, концентрической гипертрофии ЛЖ, диастолической дисфункции ЛЖ по 1 типу, легочной гипертензии в покое, относительной недостаточности ТК.</p>"
+	},
+	{
+		"name": "Мерц аритмия",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки уплотнены, склерозированы, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм, створки уплотнены, склерозированы, с кальцинатами 1-2 степени, кровоток ламинарный, регургитация степени.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ снижена. Локальные нарушения сократимости стенок ЛЖ не выявлены - диффузная гипокинезия стенок ЛЖ.<br/>Диастолическая функция ЛЖ не оценивалась из-за мерцательной аритмии. <br/>Гипертрофия миокарда ЛЖ, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС ={serdtse[ots]}(норма Концентрическое ремоделирование ЛЖ Концентрическая гипертрофия ЛЖ Концентрическая гипертрофия с дилатацией ЛЖ. Эксцентрическая гипертрофия левого желудочка.<br/>МК - створки уплотнены, задняя створка с кальцинатом, ригидна, движение разнонаправленное, кровоток ламинарный, регургитация степени.<br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени.<br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширена.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет. Легочная гипертензии в покое легкой, умеренной, тяжелой степени - давление в ЛА мм рт ст.<br/>Систолический градиент на КЛА {serdtse[kla]}мм рт ст.<br/>Свободной жидкости в перикарде нет.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.</p>",
+		"id": 31,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки склеротических изменений стенок аорты, створок АК, МК, недостаточности АК, МК, ИБС, ПИКС, снижения сократительной способности миокарда ЛЖ, концентрической гипертрофии ЛЖ, легочной гипертензии в покое, относительной недостаточности ТК.</p>"
+	},
+	{
+		"name": "Норма, ЛХ, ПМК",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки не изменены, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм створки не изменены, кровоток ламинарный.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ сохранена, кинез стенок не нарушен.<br/>Диастолическая функция ЛЖ не нарушена. E &gt; A<br/>В полости ЛЖ визуализируется поперечно-верхушечная, диагонально верхушечная, продольная срединная. диагональная срединная, межпапиллярная ложная хорда.<br/>Гипертрофии миокарда ЛЖ нет, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС ={serdtse[ots]}(норма МК - створки не изменены, дополнительная волна В (дисфункция папиллярных мышц ), пролабирование ПС МК до , без регургитации, кровоток ламинарный, регургитация 0-1 степени (физиологическая).<br/>ТК - створки не изменены, кровоток ламинарный, регургитация 0-1 степени (физиологическая).<br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширена.<br/>МЖП, МПП дефектов не выявлено. <br/>Кровоток не изменен. <br/>Свободной жидкости в перикарде нет. <br/>Легочной гипертензии в покое нет, пульмональная регургитация 0-1 степени (физиологическая).<br/>Систолический градиент на КЛА {serdtse[kla]}мм рт ст.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.</p>",
+		"id": 32,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Без эхографической патологии. УЗ-признаки ложной хорды ЛЖ. ПМК степени, физиологической регургитации на МК, ТК, КЛА.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм, не расширена, стенки не изменены, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм створки не изменены, кровоток ламинарный.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастола {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастола {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ сохранена, кинез стенок не нарушен.<br/>Диастолическая функция ЛЖ не нарушена. <br/>В полости ЛЖ визуализируется поперечно-верхушечная, диагонально верхушечная, продольная срединная. диагональная срединная, межпапиллярная ложная хорда.<br/>Гипертрофии миокарда ЛЖ нет, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС = {serdtse[ots]}(норма МК - створки не изменены, дополнительная волна В (дисфункция папиллярных мышц ), пролабирование ПС МК до , без регургитации, кровоток ламинарный.<br/>ТК -створки не изменены, кровоток ламинарный.<br/>Полость ПЖ {serdtse[pzh]}мм, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]} мм - не расширены.<br/>МЖП, МПП дефектов не выявлено. Кровоток не изменен. <br/>Свободной жидкости в перикарде нет.<br/>Легочной гипертензии в покое нет.<br/>Систолический градиент на КЛА {serdtse[kla]} А мм рт ст.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.</p>",
+		"id": 33,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Без эхографической патологии. УЗ-признаки ложной хорды ЛЖ. ПМК степени.</p>"
+	},
+	{
+		"name": "Ревматизм",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}мм - не расширена, стенки уплотнены, склерозированы, амплитуда движения их достаточная.<br/>Открытие створок АК {serdtse[oak]}мм - ограничено, створки уплотнены, склерозированы, с кальцинатами 1-2 степени, кровоток ламинарный, регургитация степени.<br/>Систолический градиент на АК {serdtse[ak]}мм рт ст. <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО {serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу{serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу %(ZSLG)sмм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ снижена. Локальные нарушения сократимости стенок ЛЖ не выявлены - диффузная гипокинезия стенок ЛЖ.<br/>Диастолическая функция ЛЖ не оценивалась из-за мерцательной аритмии нарушена по 1 типу.<br/>Гипертрофия миокарда ЛЖ, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2). ОТС = {serdtse[ots]} (норма Концентрическое ремоделирование ЛЖ Концентрическая гипертрофия ЛЖ Концентрическая гипертрофия с дилатацией ЛЖ. Эксцентрическая гипертрофия левого желудочка.<br/>МК - створки уплотнены, утолщены, с комиссуральными сращениями по краям, задняя створка с кальцинатом, ригидна, движение однонаправленное, кровоток стенотический, площадь отверстия МК - см кв., регургитация степени.<br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени.<br/>Полость ПЖ {serdtse[pzh]} мм, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]} мм - не расширены.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет. Легочная гипертензии в покое легкой, умеренной, тяжелой степени - давление в ЛА мм рт ст.<br/>Систолический градиент на КЛА {serdtse[kla]} мм рт ст.<br/>Свободной жидкости в перикарде нет.<br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.<br/></p>",
+		"id": 34,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки комбинированного митрально-аортального порока (ревматического генеза), стеноза АК, МК легкой умеренной выраженной степени, недостаточности АК, МК легкой умеренной выраженной степени, ИБС, ПИКС, снижения сократительной способности миокарда ЛЖ, концентрической гипертрофии ЛЖ, диастолической дисфункции ЛЖ по 1 типу, легочной гипертензии в покое, относительной недостаточности ТК.</p>"
+	},
+	{
+		"name": "Стеноз АК",
+		"item_id": 2,
+		"item": {
+			"name": "serdtse",
+			"group_id": 2,
+			"id": 2
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Эхокардиография: М, В, D (импульсно-волновой, постоянно-волновой), C-режимы.<br/>ЧСС {klient[chss]} уд/мин , {klient[_ppt]}м2 - площадь поверхности тела.<br/>Диаметр аорты {serdtse[aorta]}, не расширена, стенки уплотнены, склерозированы, амплитуда движения их достаточная. <br/>Открытие створок АК{serdtse[oak]}мм - ограничено створки уплотнены, кальциноз створок 1-2 степени, поток стенотический, регургитация степени. <br/>Пиковый градиент давления {serdtse[ak]}мм.рт.ст, средний систолический градиент на АК . <br/>Полость левого предсердия {serdtse[lp_x]}x{serdtse[lp_y]}мм не расширена.<br/>Полость ЛЖ не расширена.<br/>КСР {serdtse[ksrlzh]}мм КСО{serdtse[kso]}мл. <br/>КДР {serdtse[kdrlzh]}мм КДО {serdtse[kdo]}мл. <br/>Толщина МЖП в диастолу {serdtse[mzhp]}мм. <br/>Толщина ЗСЛЖ в диастолу {serdtse[zslzh]}мм.<br/>Фракция выброса {serdtse[fv]}%. <br/>Сократительная способность миокарда ЛЖ сохранена, кинез стенок не нарушен. <br/>Диастолическая функция ЛЖ нарушена по 1 типу. ЕГипертрофия миокарда ЛЖ, индекс массы миокарда ЛЖ {serdtse[immlzh]}г\\м кв.(норма для женщин до 95г/м2, для мужчин - до 115г/м2) . ОТС = {serdtse[ots]}. <br/>Концентрическая гипертрофия ЛЖ. Эксцентрическая гипертрофия ЛЖ. Концентрическая гипетрофия ЛЖ с дилатацией ЛЖ. Концетрическое ремоделирование ЛЖ.<br/>МК - створки уплотнены, движение разнонаправленное, кровоток ламинарный, регургитация степени. <br/>ТК - створки уплотнены, кровоток ламинарный, регургитация степени. <br/>Полость ПЖ {serdtse[pzh]}мм - не расширена, полость ПП {serdtse[pp_x]}x{serdtse[pp_y]}мм - не расширены.<br/>МЖП, МПП дефектов не выявлено. <br/>Легочной гипертензии в покое нет. <br/>Систолический градиент на КЛА {serdtse[kla]} А мм рт ст. <br/>Свободной жидкости в перикарде нет. <br/>НПВ не расширена {serdtse[npv]}мм, на вдохе коллабирует более 50%.</p>",
+		"id": 35,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки выраженных склеротических изменений стенок аорты, створок АК, стеноза АК степени, недостаточности АК степени, концетрической гипертрофии ЛЖ, диастолической дисфункции ЛЖ по 1 типу.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 12,
+		"item": {
+			"name": "urologiia",
+			"group_id": 9,
+			"id": 12
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Яички расположены типично.<br/>Контуры ровные, четкие.<br/>Размеры: правое: {urologiia[p._dlina]}x{urologiia[p._shirina]}x{urologiia[p._tolshchina]}мм, v={urologiia[p._ob'em]}<br/>левое: {urologiia[l._dlina]}x{urologiia[l._shirina]}x{urologiia[l._tolshchina]}мм, v={urologiia[l._ob'em]}<br/>Придатки яичек: правый {urologiia[p.p._dlina]}x{urologiia[p.p._tolshchina]}мм.<br/>левый {urologiia[l.p._dlina]}x{urologiia[l.p._tolshchina]}мм.<br/>Эхогенность обычная, однородная.<br/>В оболочах яичек свободная жидкость.<br/>В толще анэхогенные образования с четкими контурами, с однородным содержимым.<br/>Сосуды гроздевидного сплетения не расширены, расширены неравномерно.<br/><br/></p>",
+		"id": 36,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки гидроцеле, варикоцеле, кист придатков яичек.</p>"
+	},
+	{
+		"name": "ДИП",
+		"item_id": 8,
+		"item": {
+			"name": "shchitovidnaia",
+			"group_id": 5,
+			"id": 8
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Щитовидная Железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Расположение обычное.<br/>Перешеек {shchitovidnaia[peresheek]}мм.<br/>Правая доля {shchitovidnaia[dlina]}sх{shchitovidnaia[shirina]}х{shchitovidnaia[tolshchina]}мм, объем {shchitovidnaia[ob'em]}см кб.<br/>Левая доля {shchitovidnaia[dlina_2]}х{shchitovidnaia[shirina_2]}х{shchitovidnaia[tolshchina_2]}мм, объем {shchitovidnaia[ob'em_2]}см кб.<br/>Общий объем {shchitovidnaia[v_obshch]}см кб. (норма жен - до 18 см кб., муж.- до 24 см кб.)<br/>Контуры ровные, четкие.<br/>Эхогенность обычная.<br/>Структура диффузно неоднородная.<br/>Кровоток в ткани железы не изменен.<br/>Регионарные л/узлы не увеличены.<br/></p>",
+		"id": 37,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки диффузных изменений паренхимы щитовидный железы.</p>"
+	},
+	{
+		"name": "Норма",
+		"item_id": 8,
+		"item": {
+			"name": "shchitovidnaia",
+			"group_id": 5,
+			"id": 8
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Щитовидная Железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Расположение обычное.<br/>Перешеек {shchitovidnaia[peresheek]}мм.<br/>Правая доля {shchitovidnaia[dlina]}sх{shchitovidnaia[shirina]}х{shchitovidnaia[tolshchina]}мм, объем {shchitovidnaia[ob'em]}см кб.<br/>Левая доля {shchitovidnaia[dlina_2]}х{shchitovidnaia[shirina_2]}х{shchitovidnaia[tolshchina_2]}мм, объем {shchitovidnaia[ob'em_2]}см кб.<br/>Общий объем {shchitovidnaia[v_obshch]}см кб. (норма жен - до 18 см кб., муж.- до 24 см кб.)<br/>Контуры ровные, четкие.<br/>Эхогенность обычная.<br/>Структура однородная.<br/>Кровоток в ткани железы не изменен.<br/>Регионарные л/узлы не увеличены.<br/></p>",
+		"id": 38,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-патологии не выявлено.</p>"
+	},
+	{
+		"name": "Тиреоидит",
+		"item_id": 8,
+		"item": {
+			"name": "shchitovidnaia",
+			"group_id": 5,
+			"id": 8
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Щитовидная Железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Расположение обычное.<br/>Перешеек {shchitovidnaia[peresheek]}мм.<br/>Правая доля {shchitovidnaia[dlina]}sх{shchitovidnaia[shirina]}х{shchitovidnaia[tolshchina]}мм, объем {shchitovidnaia[ob'em]}см кб.<br/>Левая доля {shchitovidnaia[dlina_2]}х{shchitovidnaia[shirina_2]}х{shchitovidnaia[tolshchina_2]}мм, объем {shchitovidnaia[ob'em_2]}см кб.<br/>Общий объем {shchitovidnaia[v_obshch]}см кб. (норма жен - до 18 см кб., муж.- до 24 см кб.)<br/>Контуры неровные, нечеткие.<br/>Эхогенность снижена.<br/>Структура неоднородная за счет участков пониженной эхогенности до мм с нечеткими контурами.<br/>Кровоток в ткани железы усилен.<br/>Регионарные л/узлы не увеличены.<br/></p>",
+		"id": 39,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки тиреоидита.</p>"
+	},
+	{
+		"name": "Узлы",
+		"item_id": 8,
+		"item": {
+			"name": "shchitovidnaia",
+			"group_id": 5,
+			"id": 8
+		},
+		"body": "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Щитовидная Железа</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Расположение обычное.<br/>Перешеек {shchitovidnaia[peresheek]}мм.<br/>Правая доля {shchitovidnaia[dlina]}sх{shchitovidnaia[shirina]}х{shchitovidnaia[tolshchina]}мм, объем {shchitovidnaia[ob'em]}см кб.<br/>Левая доля {shchitovidnaia[dlina_2]}х{shchitovidnaia[shirina_2]}х{shchitovidnaia[tolshchina_2]}мм, объем {shchitovidnaia[ob'em_2]}см кб.<br/>Общий объем {shchitovidnaia[v_obshch]}см кб. (норма жен - до 18 см кб., муж.- до 24 см кб.)<br/>Контуры ровные, четкие.<br/>Эхогенность обычная.<br/>Структура неоднородная.<br/>Очаговые образования визуализируются: в правой левой доле, в с/с, н/п, в/п, изоэхогенное однородное образование с гипоэхогенным ободком, неоднородное за счет анэхогенных включений неправильной формы до мм, с краевым смешанным типом кровотока. В правой левой доле, в с/с н/п в/п, визуализируются гипоэхогенные однородные образования. В правой левой доле виз-ся анэхогенное однородное образование мм с ровными четкими контурами, с перегородкой внутри, дающее эффект дорсального усиления, без признаков кровотока.<br/>Кровоток в ткани железы не изменен.<br/>Регионарные л/узлы не увеличены.<br/></p>",
+		"id": 40,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки узлов, кист правой левой доли, обеих долей.</p>"
+	},
+	{
+		"name": "ДИПП",
+		"item_id": 7,
+		"item": {
+			"name": "pochki",
+			"group_id": 4,
+			"id": 7
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\"><span style=\" font-weight:600;\">Правая почка</span><br/>Размеры не увеличены {pochki[dlina]}х{pochki[shirina]}{pochki[shirina]}{pochki[shirina]}<br/>Расположена правильно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима повышенной эхогенности с пирамидками, толщиной {pochki[parenkhim]}.<br/>Чашечки не расширены. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/><span style=\" font-weight:600;\">Левая почка</span><br/>Размеры не увеличены {pochki[dlina_2]}х{pochki[shirina_2]}<br/>Расположена правильно.<br/>Контуры ровные, четкие. Подвижность сохранена.<br/>Паренхима повышенной эхогенности с пирамидками, толщиной {pochki[parenkhim_2]}<br/>Чашечки не расширены. Лоханка не расширена.<br/>Конкременты не визуализируются.<br/></p>",
+		"id": 41,
+		"conclusion": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">УЗ-признаки диффузных изменений паренхимы обеих почек.</p>"
+	},
+	{
+		"name": "Клиент",
+		"item_id": 1,
+		"item": {
+			"name": "klient",
+			"group_id": 1,
+			"id": 1
+		},
+		"body": "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Пациент: {klient[familiia]} {klient[imia]} {klient[otchestvo]}</p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;\">Возраст: {klient[vozrast]}</p>",
+		"id": 42,
+		"conclusion": "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br/></p>"
+	}
+]
