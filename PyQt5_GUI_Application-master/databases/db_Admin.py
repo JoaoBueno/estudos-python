@@ -6,7 +6,8 @@ from sqlalchemy.orm import *
 
 from sqlalchemy.orm import mapper#导入映射方法，可以将已经存在的表映射到类中
 
-My_databases = "mysql+pymysql://root:123456@localhost:3306/ams?charset=utf8mb4"
+# My_databases = "mysql+pymysql://root:123456@localhost:3306/ams?charset=utf8mb4"
+My_databases = 'sqlite:///teste.db3'
 engine = create_engine(My_databases)#连接数据库，创建数据库引擎变量
 
 Session = sessionmaker(bind=engine)#引用上面的eigne，将事务session与数据库绑定

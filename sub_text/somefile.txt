@@ -1,0 +1,3 @@
+hi this is /www.1linha.com.br hi this is /www.1linha.com.br
+This is dummy text file.
+This is how search and replace works /www.1linha.com.br

@@ -16,4 +16,4 @@ def main(stdscr):
     # Get resulting contents
     message = box.gather()
 
-wrapper(main)
+curses.wrapper(main)

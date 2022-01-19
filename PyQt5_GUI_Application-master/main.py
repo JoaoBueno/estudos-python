@@ -36,11 +36,12 @@ class Window_Sadmin(QDialog,Ui_Admin):
     @pyqtSlot()
     def on_pushButton_clicked(self):
         if self.get_zhanghao() == 'James' and self.get_mima() == '123456':  # 当账号密码匹配成功时，代表登录成功
-            QMessageBox.information(self, '成功', '登录成功！')
+            # QMessageBox.information(self, '成功', '登录成功！')
+            QMessageBox.information(self, 'Êxito', 'Login efetuado com sucesso!')
             self.close()
             return 1
         else:
-            QMessageBox.information(self, 'error', '账号或者密码错误！请重新输入')
+            QMessageBox.information(self, 'error', 'Conta ou senha incorretas! Digite novamente')
             self.lineEdit.setText('')  # 将第一个单行文本框清空
             self.lineEdit_2.setText('')  # 将第二个单行文本框清空
             return 0
@@ -69,11 +70,12 @@ class Window_Padmin(QDialog, Ui_Admin):
         def on_pushButton_clicked(self):
             pad = admin(self.get_zhanghao(),self.get_mima())#建立一个管理员数据库类的对象变量
             if pad.isExited():  # 当账号密码匹配成功时，代表登录成功,导入了管理员数据库类中的判断账号密码是否存在的函数isExited（）
-                QMessageBox.information(self, '成功', '登录成功！')
+                # QMessageBox.information(self, '成功', '登录成功！')
+                QMessageBox.information(self, 'Êxito', 'Login efetuado com sucesso!')
                 self.close()
                 return 1
             else:
-                QMessageBox.information(self, 'error', '账号或者密码错误！请重新输入')
+                QMessageBox.information(self, 'error', 'Conta ou senha incorretas! Digite novamente')
                 self.lineEdit.setText('')  # 将第一个单行文本框清空
                 self.lineEdit_2.setText('')  # 将第二个单行文本框清空
                 return 0
@@ -101,11 +103,13 @@ class Window_worker(QDialog,Ui_Worker):
     def on_pushButton_clicked(self):
         pad = Worker(self.get_zhanghao(),self.get_mima())#导入操作员数据库，定义操作员类的对象变量
         if pad.isExited():#当账号密码在数据库中有备份时，才可以接下来的操作
-            QMessageBox.information(self,'成功','登录成功！')
+            # QMessageBox.information(self,'成功','登录成功！')
+            QMessageBox.information(self, 'Êxito', 'Login efetuado com sucesso!')
             self.close()#登录成功后关闭对话框
             return 1
         else:#数据库中没有该用户
-            QMessageBox.information(self,'error','账号或密码错误')
+            # QMessageBox.information(self,'error','账号或密码错误')
+            QMessageBox.information(self, 'error', 'Conta ou senha incorretas! Digite novamente')
             self.lineEdit.setText('')
             self.lineEdit_2.setText('')
             return 0
@@ -132,11 +136,13 @@ class Window_OrP(QDialog,Ui_OrP):
     def on_pushButton_clicked(self):
         pad = OrdinaryP(self.getname(),self.getid())#将从文本框中获取到的内容放入普通用户数据库所定义的类中
         if pad.isexited():#导入普通用户数据库类中的根据姓名和身份证号码判断用户是否存在的函数
-            QMessageBox.information(self,'成功','登录成功！')
+            # QMessageBox.information(self,'成功','登录成功！')
+            QMessageBox.information(self, 'Êxito', 'Login efetuado com sucesso!')
             self.close()
             return 1
         else:#如果用户不存在的话，或者是身份证和姓名不匹配的话，报错，并且提示用户若未注册，请先注册
-            QMessageBox.information(self,'error','姓名或者身份证号出现错误，若未注册还请先注册')
+            # QMessageBox.information(self,'error','姓名或者身份证号出现错误，若未注册还请先注册')
+            QMessageBox.information(self, 'error', 'Ocorreu um erro no seu nome ou número de identificação. Se você não se registrou, registre-se primeiro')
             self.lineEdit.setText('')
             self.lineEdit_2.setText('')#将输入文本框全部置空
             return 0
@@ -167,17 +173,20 @@ class Window_OrP_zc(QDialog,Ui_OrP_zc):
         pad = OrdinaryP(self.getname(), self.getid())  # 将从文本框中获取到的内容放入普通用户数据库所定义的类中
         win = Window_OrP()#定义一个普通用户登录的界面的类变量，为了在注册成功之后跳出该登录界面
         if pad.isexited():  # 导入普通用户数据库类中的根据姓名和身份证号码判断用户是否存在的函数
-            QMessageBox.information(self, 'error', '该普通用户已经存在！')#如果存在，则报错，注册不成功
+            # QMessageBox.information(self, 'error', '该普通用户已经存在！')#如果存在，则报错，注册不成功
+            QMessageBox.information(self, 'error', 'O usuário já existe!')#如果存在，则报错，注册不成功
             self.lineEdit.setText('')
             self.lineEdit_2.setText('')  # 将输入文本框全部置空
         else:  # 如果用户不存在的话，则代表这是一个新的注册用户
             try:
                 #设置用户输入的姓名和身份证号都不能为空
                 if self.getname()=='' or self.getid()=='':
-                    QMessageBox.information(self, 'error', '请输入有效的姓名信息和身份证号信息')
+                    # QMessageBox.information(self, 'error', '请输入有效的姓名信息和身份证号信息')
+                    QMessageBox.information(self, 'error', 'Digite as informações válidas do nome e do número do ID')
                 else:
                     pad.add()  # 导入普通用户数据库中的导入用户数据函数
-                    QMessageBox.information(self, '成功', '注册成功')
+                    # QMessageBox.information(self, '成功', '注册成功')
+                    QMessageBox.information(self, 'Sucesso', 'registro bem-sucedido')
                     # 注册成功之后先关闭注册界面
                     self.close()
                     time.sleep(0.4)
@@ -233,11 +242,13 @@ class Window_VIP(QDialog, Ui_VIP):
     def on_pushButton_clicked(self):
         pad = OrdinaryP(self.getname(), self.getid())  # 将从文本框中获取到的内容放入VIP用户数据库所定义的类中
         if pad.isexited():  # 导入VIP用户数据库类中的根据姓名和身份证号码判断用户是否存在的函数
-            QMessageBox.information(self, '成功', '登录成功！')
+            # QMessageBox.information(self, '成功', '登录成功！')
+            QMessageBox.information(self, 'Sucesso', 'Login efetuado!')
             self.close()
             return 1
         else:  # 如果用户不存在的话，或者是身份证和姓名不匹配的话，报错，并且提示用户若未注册，请先注册
-            QMessageBox.information(self, 'error', '姓名或者身份证号出现错误，若未注册还请先注册')
+            # QMessageBox.information(self, 'error', '姓名或者身份证号出现错误，若未注册还请先注册')
+            QMessageBox.information(self, 'error', 'Ocorreu um erro no nome ou no número de identificação. Se você não se registrou, registre-se primeiro')
             self.lineEdit.setText('')
             self.lineEdit_2.setText('')  # 将输入文本框全部置空
             return 0
@@ -266,19 +277,23 @@ class Window_VIPzc(QDialog, Ui_VIP_zc):
         pad = VIP(self.getname(), self.getid())  # 将从文本框中获取到的内容放入VIP用户数据库所定义的类中
         win = Window_VIP()  # 定义一个VIP用户登录的界面的类变量，为了在注册成功之后跳出该登录界面
         if pad.isexited():  # 导入VIP用户数据库类中的根据姓名和身份证号码判断用户是否存在的函数
-            QMessageBox.information(self, 'error', '该VIP用户已经存在！')  # 如果存在，则报错，注册不成功
+            # QMessageBox.information(self, 'error', '该VIP用户已经存在！')  # 如果存在，则报错，注册不成功
+            QMessageBox.information(self, 'error', 'O usuário VIP já existe!')  # 如果存在，则报错，注册不成功
             self.lineEdit.setText('')
             self.lineEdit_2.setText('')  # 将输入文本框全部置空
         else:  # 如果用户不存在的话，则代表这是一个新的注册用户
             try:
                 # 设置用户输入的姓名和身份证号都不能为空，且输入正确邀请码为1314520。
                 if self.getname() == '' or self.getid() == '' :
-                    QMessageBox.information(self, 'error', '请输入有效的姓名信息和身份证号信息')
+                    # QMessageBox.information(self, 'error', '请输入有效的姓名信息和身份证号信息')
+                    QMessageBox.information(self, 'error', 'Digite as informações válidas do nome e do número do ID')
                 elif self.getname()!=''and self.getid()!='' and self.getyaoqingma()!='1314520':
-                    QMessageBox.information(self,'error','邀请码错误！请查看帮助')
+                    # QMessageBox.information(self,'error','邀请码错误！请查看帮助')
+                    QMessageBox.information(self,'error','O código do convite está errado! Ver ajuda')
                 else:
                     pad.add()  # 导入VIP用户数据库中的导入用户数据函数
-                    QMessageBox.information(self, '成功', '注册成功')
+                    # QMessageBox.information(self, '成功', '注册成功')
+                    QMessageBox.information(self, 'Sucesso', 'registro bem-sucedido')
                     # 注册成功之后先关闭注册界面
                     self.close()
                     time.sleep(0.2)
@@ -338,14 +353,16 @@ class Window_one(QMainWindow,Ui_Window):
                 self.menubar.setEnabled(False)
                 self.frame.show()
                 self.label.setEnabled(True)
-                self.label.setText('欢迎！超级管理员 {}'.format(str(admin.get_zhanghao())))
+                # self.label.setText('欢迎！超级管理员 {}'.format(str(admin.get_zhanghao())))
+                self.label.setText('Bem vindo! Super administrador {}'.format(str(admin.get_zhanghao())))
                 self.tab.setEnabled(True)
                 self.pushButton_2.setEnabled(True)
                 self.tab_2.setEnabled(False)
                 self.tab_3.setEnabled(False)
                 self.tab_4.setEnabled(False)
         except Exception as  e:
-            QMessageBox.information(admin,'错误',str(e))
+            # QMessageBox.information(admin,'错误',str(e))
+            QMessageBox.information(admin,'Errado',str(e))
 
     @pyqtSlot()
     def on_pushButton_clicked(self):
@@ -354,22 +371,26 @@ class Window_one(QMainWindow,Ui_Window):
             if self.lineEdit.text()!=''and self.lineEdit_2.text()!='' and self.lineEdit_3.text()!='':
                 if self.lineEdit_2.text()==self.lineEdit_3.text():
                     if pad.isLogin():
-                        QMessageBox.information(self, 'error', '该管理员账号已经存在！请重新输入')
+                        # QMessageBox.information(self, 'error', '该管理员账号已经存在！请重新输入')
+                        QMessageBox.information(self, 'error', 'A conta do administrador já existe! Digite novamente')
                         self.lineEdit.setText('')
                         self.lineEdit_2.setText('')
                         self.lineEdit_3.setText('')
                     else:
                         pad.add()
-                        QMessageBox.information(self,'成功','添加管理员账号成功！')
+                        # QMessageBox.information(self,'成功','添加管理员账号成功！')
+                        QMessageBox.information(self,'Successo', 'Adicionou uma conta de administrador com sucesso!')
                         self.lineEdit.setText('')
                         self.lineEdit_2.setText('')
                         self.lineEdit_3.setText('')
                 else:
-                    QMessageBox.information(self, 'error', '两次密码输入不一致！请重新输入')
+                    # QMessageBox.information(self, 'error', '两次密码输入不一致！请重新输入')
+                    QMessageBox.information(self, 'error', 'As duas senhas foram inseridas de maneira diferente! Digite novamente')
                     self.lineEdit_2.setText('')
                     self.lineEdit_3.setText('')
             else:
-                QMessageBox.information(self,'error','请输入有效的账号密码')
+                # QMessageBox.information(self,'error','请输入有效的账号密码')
+                QMessageBox.information(self,'error','Digite uma senha de conta válida')
         except Exception as e:
             QMessageBox.information(self,'error',str(e))
     @pyqtSlot()
@@ -383,14 +404,17 @@ class Window_one(QMainWindow,Ui_Window):
         try:
             pad = admin(self.lineEdit_4.text(),'')
             if self.lineEdit_4.text()=='':
-                QMessageBox.information(self,'error','请输入有效的账号！')
+                # QMessageBox.information(self,'error','请输入有效的账号！')
+                QMessageBox.information(self,'error','Digite uma conta válida!')
             else:
                 if pad.isLogin():
                     pad.delete()
-                    QMessageBox.information(self,'成功','删除管理员成功！')
+                    # QMessageBox.information(self,'成功','删除管理员成功！')
+                    QMessageBox.information(self,'Sucesso', 'Administrator excluído com sucesso!')
                     self.lineEdit_4.setText('')
                 else:
-                    QMessageBox.information(self,'error','该管理员用户不存在！请重新输入')
+                    # QMessageBox.information(self,'error','该管理员用户不存在！请重新输入')
+                    QMessageBox.information(self,'error','O usuário administrador não existe! Digite novamente')
                     self.lineEdit_4.setText('')
         except Exception as e:
             QMessageBox.information(self,'error',str(e))
@@ -402,7 +426,8 @@ class Window_one(QMainWindow,Ui_Window):
             pad = admin('','')
             list = pad.show_all()
             for i in list:
-                self.textBrowser.append("用户名："+i.admin_user+"       "+"密码："+i.admin_pd+"  ;")
+                # self.textBrowser.append("用户名："+i.admin_user+"       "+"密码："+i.admin_pd+"  ;")
+                self.textBrowser.append("Nome de usuário:"+i.admin_user+"       "+"Senha:"+i.admin_pd+"  ;")
         except Exception as e:
             QMessageBox.information(self,'error',str(e))
 
@@ -422,22 +447,26 @@ class Window_one(QMainWindow,Ui_Window):
             if self.lineEdit_5.text() != '' and self.lineEdit_7.text() != '' and self.lineEdit_6.text() != '':
                 if self.lineEdit_7.text() == self.lineEdit_6.text():
                     if pad.isLogin():
-                        QMessageBox.information(self, 'error', '该操作员账号已经存在！请重新输入')
+                        # QMessageBox.information(self, 'error', '该操作员账号已经存在！请重新输入')
+                        QMessageBox.information(self, 'error', 'A conta do operador já existe! Digite novamente')
                         self.lineEdit_5.setText('')
                         self.lineEdit_7.setText('')
                         self.lineEdit_6.setText('')
                     else:
                         pad.add()
-                        QMessageBox.information(self, '成功', '添加操作员账号成功！')
+                        # QMessageBox.information(self, '成功', '添加操作员账号成功！')
+                        QMessageBox.information(self, 'Sucesso', 'Conta de operador adicionada com sucesso!')
                         self.lineEdit_5.setText('')
                         self.lineEdit_7.setText('')
                         self.lineEdit_6.setText('')
                 else:
-                    QMessageBox.information(self, 'error', '两次密码输入不一致！请重新输入')
+                    # QMessageBox.information(self, 'error', '两次密码输入不一致！请重新输入')
+                    QMessageBox.information(self, 'error', 'As duas senhas foram inseridas de maneira diferente! Digite novamente')
                     self.lineEdit_7.setText('')
                     self.lineEdit_6.setText('')
             else:
-                QMessageBox.information(self, 'error', '请输入有效的账号密码')
+                # QMessageBox.information(self, 'error', '请输入有效的账号密码')
+                QMessageBox.information(self, 'error', 'Digite uma senha de conta válida')
         except Exception as e:
             QMessageBox.information(self, 'error', str(e))
 
@@ -452,14 +481,17 @@ class Window_one(QMainWindow,Ui_Window):
         try:
             pad = Worker(self.lineEdit_18.text(), '')
             if self.lineEdit_18.text() == '':
-                QMessageBox.information(self, 'error', '请输入有效的账号！')
+                # QMessageBox.information(self, 'error', '请输入有效的账号！')
+                QMessageBox.information(self, 'error', 'Por favor, insira uma conta válida!')
             else:
                 if pad.isLogin():
                     pad.delete()
-                    QMessageBox.information(self, '成功', '删除操作员成功！')
+                    # QMessageBox.information(self, '成功', '删除操作员成功！')
+                    QMessageBox.information(self, 'Sucesso', 'Operador excluído com sucesso!')
                     self.lineEdit_18.setText('')
                 else:
-                    QMessageBox.information(self, 'error', '该操作员用户不存在！请重新输入')
+                    # QMessageBox.information(self, 'error', '该操作员用户不存在！请重新输入')
+                    QMessageBox.information(self, 'error', 'O usuário operador não existe! Digite novamente')
                     self.lineEdit_18.setText('')
         except Exception as e:
             QMessageBox.information(self, 'error', str(e))
@@ -474,7 +506,8 @@ class Window_one(QMainWindow,Ui_Window):
             pad = Worker('', '')
             list = pad.show_all()
             for i in list:
-                self.textBrowser_3.append("用户名：" + i.worker_user + "       " + "密码：" + i.worker_pd + "  ;")
+                # self.textBrowser_3.append("用户名：" + i.worker_user + "       " + "密码：" + i.worker_pd + "  ;")
+                self.textBrowser_3.append("Nome de usuário:" + i.worker_user + "       " + "Senha:" + i.worker_pd + "  ;")
         except Exception as e:
             QMessageBox.information(self, 'error', str(e))
 
@@ -492,7 +525,8 @@ class Window_one(QMainWindow,Ui_Window):
                 self.menubar.setEnabled(False)
                 self.frame.show()
                 self.label.setEnabled(True)
-                self.label.setText('欢迎！管理员 {}'.format(str(admin.get_zhanghao())))
+                # self.label.setText('欢迎！管理员 {}'.format(str(admin.get_zhanghao())))
+                self.label.setText('Bem vindo! Admin {}'.format(str(admin.get_zhanghao())))
                 self.tab_2.setEnabled(True)
                 self.pushButton_2.setEnabled(True)
                 self.tab.setEnabled(False)
@@ -1175,7 +1209,8 @@ if __name__=='__main__':
     app = QApplication(sys.argv)
     splash = QSplashScreen(QPixmap('.\img\spalsh.jpeg'))#设置启动界面，传进图片
     splash.show()#显示启动界面
-    splash.showMessage('正在进入航空管理系统',Qt.AlignHCenter)#使文字显示在图片中央
+    # splash.showMessage('正在进入航空管理系统',Qt.AlignHCenter)#使文字显示在图片中央
+    splash.showMessage('Como entrar no sistema de gerenciamento de aviação',Qt.AlignHCenter)#使文字显示在图片中央
     app.processEvents()
     ui = Window_one()
     ui.show()

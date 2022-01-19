@@ -1,0 +1,12 @@
+INFO:root:<PySide2.QtSql.QSqlQuery object at 0x00000222FFD35C00>
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Table was loaded successfully.
+DEBUG:root:Message: "HI" 
+ Received by: "machine"
+DEBUG:root:Message: "HOW ARE YOU?" 
+ Received by: "machine"

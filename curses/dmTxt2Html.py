@@ -260,7 +260,7 @@ def main(cfg_dict):
             doc = doc+string.rstrip(line)+'\n'
         if cfg_dict['proxy'] in ['ALL', 'NAVIGATOR']:   # proxy nav bar
             doc = re.sub('(?im)(<BODY(?:.*?)>)','\\1'+(promo % cfg_dict),doc)
-        if cfg_dict['proxy'] <> 'NONE':                 # absolute links
+        if cfg_dict['proxy'] != 'NONE':                 # absolute links
             doc = Absolutize(doc, source)
         if cfg_dict['proxy'] in ['ALL', 'TRAP_LINKS']:  # proxy links
             doc = Proxify(doc, cgi_home+'txt2html.cgi?source=')
@@ -325,7 +325,8 @@ def Make_Blocks(fhin, re_list):
             else: blocks[bl_num] = blocks[bl_num] + line
 
         else:
-            raise ValueError, "unexpected input block state: "+state
+            raise "unexpected input block state: "+state
+            # raise ValueError, "unexpected input block state: "+state
 
     return blocks
 
@@ -360,7 +361,9 @@ def Process_Blocks(fhout, blocks, cfg_dict, title_block=0):
             elif block[:6]=='[QUOT]': block = fixquote(block[6:])
             elif block[:6]=='[TEXT]': block = fixtext(block[6:])
             elif block[:6]=='[HEAD]': block = fixhead(block[6:])
-            else: raise ValueError, "unexpected block marker: "+block[:6]
+            else: 
+                raise "unexpected block marker: "+block[:6]
+                # raise ValueError, "unexpected block marker: "+block[:6]
             if cfg_dict['proxy'] in ['ALL', 'TRAP_LINKS']:
                 block = Proxify(block, cgi_home+'txt2html.cgi?source=')
             body = body+block
@@ -375,12 +378,12 @@ def Process_Blocks(fhout, blocks, cfg_dict, title_block=0):
     fhout.write(html_close)
 
 def ErrReport(mess, cfg_dict):
-    if cfg_dict.has_key('preface'):  print cfg_dict['preface']
-    print (html_open % html_title)
+    if cfg_dict.has_key('preface'):  print(cfg_dict['preface'])
+    print(html_open % html_title)
     if cfg_dict['proxy'] in ['ALL', 'NAVIGATOR']:
-        print (promo % cfg_dict)
-    print '<h1>'+mess+'</h1>'
-    print html_close
+        print(promo % cfg_dict)
+    print('<h1>'+mess+'</h1>')
+    print(html_close)
 
 
 #-- Functions for start of block-type state
@@ -635,7 +638,8 @@ def ParseArgs(list):
 
     for item in list:
         if item in ['-h','/h','-?','/?', '?']:  # help screen
-            print __doc__; return None
+            print(__doc__)
+            return None
         if item[0] in '/-':                     # a switch!
             if upper(item[1:5]) == 'TYPE':      # set type
                 cfg_dict['type'] = upper(item[6:])
@@ -671,7 +675,7 @@ def ParseCGI():
         cfg_dict['source'] = form['source'].value
     else:
         cfg_dict['source'] = cgi_home+'txt2html.txt'
-    if form.has_key('type') and upper(form['type'].value)<>'INFER':
+    if form.has_key('type') and upper(form['type'].value) != 'INFER':
         cfg_dict['type'] = upper(form['type'].value)
     else:
         cfg_dict['type'] = infer_type(cfg_dict['source'])

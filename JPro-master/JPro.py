@@ -40,7 +40,7 @@ class App(QMainWindow):
 
 		self.setGeometry(0,0,640,440)
 		self.setWindowTitle('JPro')
-#		self.setStyleSheet('background-color: #444444')
+		# self.setStyleSheet('background-color: #444444')
 		self.show()
 
 		#===##===##===##===##===#

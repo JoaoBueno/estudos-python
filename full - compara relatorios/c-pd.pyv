@@ -1,0 +1,39 @@
+import os
+import pandas as pd
+from leComissao import procComissao
+from leFinanc import procFinanc
+
+arqC = 'b-co.ori'
+arqF = 'b-fi-v.ori'
+
+arqC = (os.path.splitext(os.path.basename(arqC))[0])
+arqF = (os.path.splitext(os.path.basename(arqF))[0])
+
+dfC = procComissao(arqC)
+dfF = procFinanc(arqF)
+
+# print(dfC.dtypes)
+# print(dfC)
+
+# print(dfF)
+# print(dfF.dtypes)
+
+dfc = pd.DataFrame()
+dff = pd.DataFrame()
+
+dfc['NUMERO'] = dfC['NUMERON']
+dfc['VALOR'] = dfC['VALORLIQUIDO']
+dfc = dfc.set_index('NUMERO')
+
+dff['NUMERO'] = dfF['NUMERO']
+dff['VALOR'] = dfF['VALOR']
+dff = dff.set_index('NUMERO')
+
+# print(dfc.head())
+print(dff.head())
+
+print(dfc.loc[490821])
+print(dff.loc[490821])
+
+for index, row in dfc.iterrows():
+   print(index, row['VALOR'])
